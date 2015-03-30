@@ -1,0 +1,1340 @@
+{
+    "status": "ok",
+    "result": {
+        "uriTemplate": "http://timeshighereducation-web.madgexjbtest.com/job/{jobId}/?trackid=22",
+        "totalResults": 72,
+        "startIndex": 0,
+        "itemsPerPage": 30,
+        "jobs": [
+            {
+                "id": 1257,
+                "title": "Senior Lecturer in Criminology",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Newman University",
+                "recruiterID": 1255,
+                "recruiterLogo": "6583fa39-0812-4142-b3c6-d8662b488790",
+                "salary": "£36,308 to £47,328 per annum",
+                "location": "Birmingham, West Midlands",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1257/senior-lecturer-in-criminology/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.newman.ac.uk/jobs"
+                },
+                "upsells": [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1257/senior-lecturer-in-criminology",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1263,
+                "title": "Deputy Vice-Chancellor - Student Experience",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Westminster",
+                "recruiterID": 1262,
+                "recruiterLogo": "f2cb4e60-d376-4655-b756-6a2d3502d620",
+                "salary": "Competitive salary",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1263/deputy-vice-chancellor-student-experience/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.perrettlaver.com/westminster"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Deputy Vice-chancellors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1263/deputy-vice-chancellor-student-experience",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1261,
+                "title": "Senior Lecturer Appointment ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "The British University in Egypt",
+                "recruiterID": 1258,
+                "recruiterLogo": "492dc557-44f7-46c8-83f8-5ba20eaf9f2a",
+                "salary": "",
+                "location": "Egypt (EG)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1261/senior-lecturer-appointment-/?trackid=22",
+                    "type": "email-applications",
+                    "allowMobileExternalRedirects": true
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1261/senior-lecturer-appointment-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1260,
+                "title": "Senior Lecturer Appointment ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "The British University in Egypt",
+                "recruiterID": 1258,
+                "recruiterLogo": "492dc557-44f7-46c8-83f8-5ba20eaf9f2a",
+                "salary": "",
+                "location": "Egypt (EG)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1260/senior-lecturer-appointment-/?trackid=22",
+                    "type": "email-applications",
+                    "allowMobileExternalRedirects": true
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1260/senior-lecturer-appointment-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1259,
+                "title": "Senior Lecturer Appointment ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "The British University in Egypt",
+                "recruiterID": 1258,
+                "recruiterLogo": "492dc557-44f7-46c8-83f8-5ba20eaf9f2a",
+                "salary": "",
+                "location": "Egypt (EG)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1259/senior-lecturer-appointment-/?trackid=22",
+                    "type": "email-applications",
+                    "allowMobileExternalRedirects": true
+                },
+                "upsells": [
+                    6,
+                    7,
+                    5
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1259/senior-lecturer-appointment-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1256,
+                "title": "Lecturer - Working with Children, Young People and Families",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Newman University",
+                "recruiterID": 1255,
+                "recruiterLogo": "6583fa39-0812-4142-b3c6-d8662b488790",
+                "salary": "",
+                "location": "Birmingham, West Midlands",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1256/lecturer-working-with-children-young-people-and-families/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.newman.ac.uk/jobs"
+                },
+                "upsells": [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1256/lecturer-working-with-children-young-people-and-families",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1254,
+                "title": "Appointment of Vice-Principal & Executive Dean (Science and Engineering)",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Queen Mary, University of London",
+                "recruiterID": 1253,
+                "recruiterLogo": "93988ae0-66ee-4c9d-a852-bff2fd53eeeb",
+                "salary": "",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1254/appointment-of-vice-principal-and-executive-dean-science-and-engineering-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    7,
+                    8
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Pro Vice-chancellors",
+                                "Directors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1254/appointment-of-vice-principal-and-executive-dean-science-and-engineering-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1252,
+                "title": "Director of Learning and Teaching (Designate)",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Edinburgh Business School",
+                "recruiterID": 1251,
+                "recruiterLogo": "0fa5974c-0b4b-496e-8672-43f394608f5c",
+                "salary": "Competitive salary",
+                "location": "Edinburgh, City of Edinburgh",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1252/director-of-learning-and-teaching-designate-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.berwickpartners.co.uk/candidates/assignment/51800"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Directors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1252/director-of-learning-and-teaching-designate-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1250,
+                "title": "Director of Human Resources and Development",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Edinburgh Napier University",
+                "recruiterID": 1249,
+                "recruiterLogo": "65d93e49-51fe-466e-82e2-6bb0336eda25",
+                "salary": "Attractive Salary",
+                "location": "Edinburgh, City of Edinburgh",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1250/director-of-human-resources-and-development/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.saxbam.com/jobs"
+                },
+                "upsells": [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Directors"
+                            ]
+                        ],
+                        [
+                            "Professional Services",
+                            [
+                                "Human Resources"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1250/director-of-human-resources-and-development",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1248,
+                "title": "Systems Administrator (Apple Macintosh) ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Sussex",
+                "recruiterID": 1246,
+                "recruiterLogo": "cfaa89ec-2ad4-4a5e-a55d-4bc97adba916",
+                "salary": "",
+                "location": "East Sussex",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1248/systems-administrator-apple-macintosh-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.sussex.ac.uk/jobs"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1248/systems-administrator-apple-macintosh-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1247,
+                "title": "Lecturer/Senior Lecturer or Reader in Power Electronics ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Sussex",
+                "recruiterID": 1246,
+                "recruiterLogo": "cfaa89ec-2ad4-4a5e-a55d-4bc97adba916",
+                "salary": "",
+                "location": "East Sussex",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1247/lecturer-senior-lecturer-or-reader-in-power-electronics-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.sussex.ac.uk/jobs"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1247/lecturer-senior-lecturer-or-reader-in-power-electronics-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1245,
+                "title": "Professor and Head of the Department of Mathematical Sciences",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Liverpool",
+                "recruiterID": 1239,
+                "recruiterLogo": "9508f598-6044-41fb-ad0f-0bca47f584b9",
+                "salary": "Salary negotiable",
+                "location": "Liverpool, Merseyside",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1245/professor-and-head-of-the-department-of-mathematical-sciences/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.liv.ac.uk/working/job_vacancies"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    8,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Heads of Department"
+                            ]
+                        ],
+                        [
+                            "Academic Posts",
+                            [
+                                "Professors / Chairs"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1245/professor-and-head-of-the-department-of-mathematical-sciences",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1244,
+                "title": "Lecturer in Psychology (Addiction or Pain)",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Liverpool",
+                "recruiterID": 1239,
+                "recruiterLogo": "9508f598-6044-41fb-ad0f-0bca47f584b9",
+                "salary": "Salary negotiable",
+                "location": "Liverpool, Merseyside",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1244/lecturer-in-psychology-addiction-or-pain-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.liv.ac.uk/working/job_vacancies"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    8,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1244/lecturer-in-psychology-addiction-or-pain-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1243,
+                "title": "Research Chair in Computational Modelling for Nuclear Engineering",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Liverpool",
+                "recruiterID": 1239,
+                "recruiterLogo": "9508f598-6044-41fb-ad0f-0bca47f584b9",
+                "salary": "Salary negotiable",
+                "location": "Liverpool, Merseyside",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1243/research-chair-in-computational-modelling-for-nuclear-engineering/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    8,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Professors / Chairs"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1243/research-chair-in-computational-modelling-for-nuclear-engineering",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1242,
+                "title": "Professor in Nuclear Engineering",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Liverpool",
+                "recruiterID": 1239,
+                "recruiterLogo": "9508f598-6044-41fb-ad0f-0bca47f584b9",
+                "salary": "Salary negotiable",
+                "location": "Liverpool, Merseyside",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1242/professor-in-nuclear-engineering/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    8,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Professors / Chairs"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1242/professor-in-nuclear-engineering",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1240,
+                "title": "Lecturer in English Literature - (Pre-1700 Period) ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Liverpool",
+                "recruiterID": 1239,
+                "recruiterLogo": "9508f598-6044-41fb-ad0f-0bca47f584b9",
+                "salary": "£32,277 - £37,394 pa",
+                "location": "Liverpool, Merseyside",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1240/lecturer-in-english-literature-pre-1700-period-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.liv.ac.uk/working/job_vacancies"
+                },
+                "upsells": [
+                    6,
+                    5,
+                    8,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1240/lecturer-in-english-literature-pre-1700-period-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1238,
+                "title": "LSE Fellow in International History ",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "London School of Economic & Political Science",
+                "recruiterID": 1236,
+                "recruiterLogo": "4a566a38-2cd6-43ad-97e0-08733cd04c13",
+                "salary": "£33,450 to £40,462 pa inclusive",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1238/lse-fellow-in-international-history-/?trackid=22",
+                    "type": "email-applications",
+                    "allowMobileExternalRedirects": true
+                },
+                "upsells": [
+                    6,
+                    5,
+                    7
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Fellowships"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1238/lse-fellow-in-international-history-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1237,
+                "title": "Academic Registrar",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "London School of Economic & Political Science",
+                "recruiterID": 1236,
+                "recruiterLogo": "4a566a38-2cd6-43ad-97e0-08733cd04c13",
+                "salary": "",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1237/academic-registrar/?trackid=22",
+                    "type": "email-applications",
+                    "allowMobileExternalRedirects": true
+                },
+                "upsells": [
+                    6,
+                    5
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Registrars / Assistant Registrars"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1237/academic-registrar",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1235,
+                "title": "Vice-Chancellor and President",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Warwick",
+                "recruiterID": 1234,
+                "recruiterLogo": "336b72c0-20f3-4961-90fe-ea706ff7215c",
+                "salary": "",
+                "location": "Warwick, Warwickshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1235/vice-chancellor-and-president/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
+                },
+                "upsells": [
+                    5,
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Vice-chancellors / Principals / Provosts"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1235/vice-chancellor-and-president",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1233,
+                "title": "Lecturer/Senior Lecturer Posts in Disruptive Technologies",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Greenwich",
+                "recruiterID": 1229,
+                "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+                "salary": "£31,342 to £45,954 plus £3,437 London weighting per annum",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1233/lecturer-senior-lecturer-posts-in-disruptive-technologies/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "https://jobs.gre.ac.uk/Vacancy.aspx?ref=840"
+                },
+                "upsells": [
+                    8,
+                    5,
+                    7,
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Heads of Department",
+                                "Other Senior Management"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1233/lecturer-senior-lecturer-posts-in-disruptive-technologies",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1232,
+                "title": "Subject Lead for Film and Television",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Greenwich",
+                "recruiterID": 1229,
+                "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+                "salary": "£47,328 to £54,841 plus £3,437 London weighting per annum",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1232/subject-lead-for-film-and-television/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "https://jobs.gre.ac.uk/Vacancy.aspx?ref=841"
+                },
+                "upsells": [
+                    8,
+                    5,
+                    7,
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Heads of Department",
+                                "Other Senior Management"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1232/subject-lead-for-film-and-television",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1231,
+                "title": "Deputy Head of Department, Creative Professions and Digital Arts",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Greenwich",
+                "recruiterID": 1229,
+                "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+                "salary": "£47,328 to £54,841 plus £3,437 London weighting per annum",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1231/deputy-head-of-department-creative-professions-and-digital-arts/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "https://jobs.gre.ac.uk/Vacancy.aspx?ref=840"
+                },
+                "upsells": [
+                    8,
+                    5,
+                    7,
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Heads of Department",
+                                "Other Senior Management"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1231/deputy-head-of-department-creative-professions-and-digital-arts",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1230,
+                "title": "Deputy Vice-Chancellor (Research and Enterprise)",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "University of Greenwich",
+                "recruiterID": 1229,
+                "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+                "salary": "Attractive six-figure salary",
+                "location": "London (Greater)",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1230/deputy-vice-chancellor-research-and-enterprise-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.odgers.com/51759"
+                },
+                "upsells": [
+                    8,
+                    5,
+                    7,
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": true,
+                "isHomePageJob": true,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Senior Management & Heads of Department",
+                            [
+                                "Deputy Vice-chancellors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1230/deputy-vice-chancellor-research-and-enterprise-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1228,
+                "title": "Research Lecturer/Senior Lecturer in Artificial Intelligence/Interactive Systems",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1228/research-lecturer-senior-lecturer-in-artificial-intelligence-interactive-systems/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1228/research-lecturer-senior-lecturer-in-artificial-intelligence-interactive-systems",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1227,
+                "title": "Research Lecturer/Senior Lecturer in Criminology",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1227/research-lecturer-senior-lecturer-in-criminology/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1227/research-lecturer-senior-lecturer-in-criminology",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1226,
+                "title": "Research Lecturer/Senior Lecturer in Business and Management",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1226/research-lecturer-senior-lecturer-in-business-and-management/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1226/research-lecturer-senior-lecturer-in-business-and-management",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1225,
+                "title": "Research Lecturer/Senior Lecturer in Social Policy/Sociology",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1225/research-lecturer-senior-lecturer-in-social-policy-sociology/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1225/research-lecturer-senior-lecturer-in-social-policy-sociology",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1224,
+                "title": "Research Lecturer/Senior Lecturer in Digital Media & Culture",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1224/research-lecturer-senior-lecturer-in-digital-media-and-culture/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1224/research-lecturer-senior-lecturer-in-digital-media-and-culture",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1223,
+                "title": "Research Lecturer/Senior Lecturer in Health Sciences Research (Systematic Reviewing)",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1223/research-lecturer-senior-lecturer-in-health-sciences-research-systematic-reviewing-/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1223/research-lecturer-senior-lecturer-in-health-sciences-research-systematic-reviewing-",
+                "usesAltRecruiterName": false
+            },
+            {
+                "id": 1222,
+                "title": "Research Lecturer/Senior Lecturer in BIM and Energy Reduction in the Built Environment",
+                "posted": "18 Mar 2015",
+                "description": "",
+                "recruiter": "Teesside University",
+                "recruiterID": 1215,
+                "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+                "salary": "£29,552 - £47,328",
+                "location": "Middlesbrough, North Yorkshire",
+                "geo": [
+                ],
+                "jobRole": null,
+                "applyInfo": {
+                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1222/research-lecturer-senior-lecturer-in-bim-and-energy-reduction-in-the-built-environment/?trackid=22",
+                    "type": "external-redirect",
+                    "allowMobileExternalRedirects": true,
+                    "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
+                },
+                "upsells": [
+                    6
+                ],
+                "noOfVideos": 0,
+                "isPremiumJob": false,
+                "isHomePageJob": false,
+                "isDisplayLogoJob": true,
+                "isTopJob": false,
+                "categories": {
+                    "function": [
+                        [
+                            "Academic Posts",
+                            [
+                                "Principal / Senior Lecturers / Associate Professors",
+                                "Lecturers / Assistant Professors"
+                            ]
+                        ]
+                    ],
+                    "location": [
+                    ]
+                },
+                "urlId": "1222/research-lecturer-senior-lecturer-in-bim-and-energy-reduction-in-the-built-environment",
+                "usesAltRecruiterName": false
+            }
+        ]
+    }
+}

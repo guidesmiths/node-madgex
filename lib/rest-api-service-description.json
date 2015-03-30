@@ -1,0 +1,20 @@
+﻿{
+    "invokable": false,
+    "uriTemplate": "",
+    "sub": {
+        "jobinfo": {
+            "uriTemplate": "jobinfo",
+            "invokable": true,
+            "params": {
+                "jobid": { "type": "integer", "required": true }
+            },
+            "sub": {
+                "search": {
+                    "uriTemplate": "search",
+                    "invokable": true,
+                    "params": {}
+                }
+            }
+        }
+    }
+}
