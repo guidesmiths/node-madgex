@@ -12,7 +12,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>57241cb6-314d-4b1c-b348-b77ffc9c6b61</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -31,7 +32,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="index.js" />
-    <Compile Include="app.js" />
     <Compile Include="lib\rest-api-client.js" />
     <Compile Include="lib\util.js" />
     <Compile Include="test\rest-api-tests.js" />
