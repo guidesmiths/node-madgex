@@ -15,6 +15,13 @@ describe('Madgex module', function () {
         it("should have a jobInfo API part", function () {
             assert.ok(client.jobinfo, "jobInfo api branch not found");
         });
+        
+        it("should provide a path info from method invocation", function () {
+
+            assert.ok(client.jobinfo.getPathAndQuery, "method has not path discover method");
+            assert.equal(client.jobinfo.getPathAndQuery({}), "/restapi/jobinfo?deviceId=node-device", 
+                "method path resolution is incorrect");
+        });
 
         describe("jobinfo API function", function () {
             it("shoud be invokable", function () {
@@ -32,8 +39,6 @@ describe('Madgex module', function () {
             });
             describe("jobinfo.search API function ", function () {
                 it("should return 30 items without params", function (done) {
-                    console.log("@@@@@@@", client.jobinfo.search.path);
-                    console.log("@@@@@@@", client.jobinfo.search.getPathAndQuery({}));
                     client.jobinfo.search({}, function(err, data) {
                         assert.ok(data.jobs, "search yielded not jobs");
                         assert.equal(data.jobs.length, 30, "search resulted incorred number of items");
