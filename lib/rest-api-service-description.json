@@ -1,6 +1,6 @@
 ﻿{
     "invokable": false,
-    "uriTemplate": "",
+    "uriTemplate": "restapi",
     "sub": {
         "jobinfo": {
             "uriTemplate": "jobinfo",

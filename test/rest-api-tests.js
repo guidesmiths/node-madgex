@@ -1,6 +1,7 @@
 ﻿var madgex = require('../index.js'),
     assert = require('assert'),
     config = require('./service-config.json')
+    //,nock = require('nock')
 
 describe('Madgex module', function () {
     this.timeout(5000);
@@ -14,6 +15,7 @@ describe('Madgex module', function () {
         it("should have a jobInfo API part", function () {
             assert.ok(client.jobinfo, "jobInfo api branch not found");
         });
+
         describe("jobinfo API function", function () {
             it("shoud be invokable", function () {
                 assert.equal(typeof client.jobinfo, "function", "jobinfo is not a function");
@@ -30,6 +32,8 @@ describe('Madgex module', function () {
             });
             describe("jobinfo.search API function ", function () {
                 it("should return 30 items without params", function (done) {
+                    console.log("@@@@@@@", client.jobinfo.search.path);
+                    console.log("@@@@@@@", client.jobinfo.search.getPathAndQuery({}));
                     client.jobinfo.search({}, function(err, data) {
                         assert.ok(data.jobs, "search yielded not jobs");
                         assert.equal(data.jobs.length, 30, "search resulted incorred number of items");
