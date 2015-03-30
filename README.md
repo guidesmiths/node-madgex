@@ -111,3 +111,8 @@ id | integer, required
 
 ##employer.search(params, done)
 Searches in the employer database
+
+
+##myjobs.add(params, done)
+
+##myjobs.delete(params, done)

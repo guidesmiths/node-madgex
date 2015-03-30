@@ -3,6 +3,8 @@
     config = require('./service-config.json')
 
 describe('Madgex module', function () {
+    this.timeout(5000);
+
     var client = madgex.createClient(config.serviceName, config.credentials).restApi;
     it("should provide the REST API facede", function () {
         assert.ok(client, "restApi not found");
@@ -95,6 +97,19 @@ describe('Madgex module', function () {
             })
         });
 
+
+        it("should have a myjobs API part", function () {
+            assert.ok(client.myjobs, "api part is missing");
+        });
+
+        describe("myjobs API part", function () {
+            it("should provide the 'add' method", function () {
+                assert.ok(client.myjobs.add, "add function not found");
+            });
+            it("should provide the 'delete' method", function () {
+                assert.ok(client.myjobs.delete, "add function not found");
+            });
+        });
     })
 })
 

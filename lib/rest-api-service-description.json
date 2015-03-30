@@ -28,14 +28,34 @@
         },
         "employer": {
             "invokable": true,
-            "params": { 
-                "id": {"type": "integer"}
+            "params": {
+                "id": { "type": "integer" }
             },
             "uriTemplate": "employer",
             "sub": {
                 "search": {
                     "invokable": true,
                     "uriTemplate": "search"
+                }
+            }
+        },
+        "myjobs": {
+            "uriTemplate": "myjobs",
+            "invokable": true,
+            "sub": {
+                "add": {
+                    "invokable": true,
+                    "uriTemplate": "add",
+                    "params": {
+                        "jobid": { "type": "integer" }
+                    }
+                },
+                "delete": {
+                    "invokable": true,
+                    "uriTemplate": "list",
+                    "params": {
+                        "jobid": { "type": "integer" }
+                    }
                 }
             }
         }
