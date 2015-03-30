@@ -5,8 +5,7 @@ Friendly node.js client for the Madgex online service
 
 ```javascript
     var madgex = require('node-madgex');
-    var client = madgex.createClient("yoursitename",  
-            { key: "yourkey", secret: "yoursecret" }).restApi;
+    var client = madgex.createClient("yoursitename",  { key: "yourkey", secret: "yoursecret" }).restApi;
 
     client.jobinfo({ jobid: 1257 }, function (err, data) {
         console.log(data);
@@ -37,7 +36,7 @@ promised values are easy to compose:
 
     client.jobinfo
           .search({})
-          .then(function(jobs) { return client.jobinfo({jobid: result[0].id }) })
+          .then(function(jobs) { return client.jobinfo({jobid: jobs[0].id }) })
           .then(function(jobdetails) { /*handle data*/ })
           .fail(function(err) { /*dome something with the error */ });
 ```
@@ -45,9 +44,9 @@ promised values are easy to compose:
 ####or not!
 Callbacks can also be chained ...
 ```javascript
-    client.search({}, function(err, data) {
+    client.jobinfo.search({}, function(err, data) {
         if (err) { /* signal error*/ return; }
-        client.jobinf({}, function(err, data) {
+        client.jobinfo({}, function(err, data) {
             if (err) { /* signal error*/ return; }
             //do something with the data
         });
