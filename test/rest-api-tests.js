@@ -34,6 +34,14 @@ describe('Madgex module', function () {
                         done(); 
                     });
                 });
+                it("should also return a promise the resolves to 30 jobs", function (done) {
+                    var jobs = client.jobinfo.search({});
+                    assert.ok(jobs.then, "result is not a promise");
+                    jobs.then(function (data) {
+                        assert.equal(data.jobs.length, 30, "item count mismatch");
+                        done();
+                    });
+                })
                 it("should have a full subfunction", function () {
                     assert.ok(client)
                 });
@@ -48,6 +56,7 @@ describe('Madgex module', function () {
                             done();
                         });
                     });
+
                 });
                 
                 describe("jobinfo.search.facets API function", function () {

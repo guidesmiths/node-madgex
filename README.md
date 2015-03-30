@@ -13,6 +13,48 @@ Friendly node.js client for the Madgex online service
     });
 
 ```
+API methods usually accept a params hash and a completion callback with (err, data, result) signature;
+
+###promises
+As an alternative to the completion callback you can use promises as well. Api methods return with a promise
+that resolves after the completion callback (if one is present).
+
+```javascript
+    client.jobinfo({ jobid: 1257 })
+          .then(function(data) {
+              //handle data
+          })
+          .fail(function(err) {
+              //dome something with the error
+          });
+
+```
+
+####chain'em
+
+```javascript
+promised values are easy to compose:
+
+    client.jobinfo
+          .search({})
+          .then(function(jobs) { return client.jobinfo({jobid: result[0].id }) })
+          .then(function(jobdetails) { /*handle data*/ })
+          .fail(function(err) { /*dome something with the error */ });
+```
+
+####or not!
+Callbacks can also be chained ...
+```javascript
+    client.search({}, function(err, data) {
+        if (err) { /* signal error*/ return; }
+        client.jobinf({}, function(err, data) {
+            if (err) { /* signal error*/ return; }
+            //do something with the data
+        });
+    })
+```
+
+
 
 ###beware
 the structure of the API tree will probably change
