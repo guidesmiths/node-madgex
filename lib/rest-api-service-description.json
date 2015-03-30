@@ -12,7 +12,30 @@
                 "search": {
                     "uriTemplate": "search",
                     "invokable": true,
-                    "params": {}
+                    "params": { },
+                    "sub": {
+                        "full": {
+                            "invokable": true,
+                            "uriTemplate": "full"
+                        },
+                        "facets": {
+                            "invokable": true,
+                            "uriTemplate": "facets"
+                        }
+                    }
+                }
+            }
+        },
+        "employer": {
+            "invokable": true,
+            "params": { 
+                "id": {"type": "integer"}
+            },
+            "uriTemplate": "employer",
+            "sub": {
+                "search": {
+                    "invokable": true,
+                    "uriTemplate": "search"
                 }
             }
         }
