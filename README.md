@@ -115,3 +115,11 @@ Searches in the employer database
 ##myjobs.add(params, done)
 
 ##myjobs.delete(params, done)
+
+
+#To runt tests
+just
+
+mocha
+
+Make sure you have updated the service-config.json with your specific key, secret and sitename.
