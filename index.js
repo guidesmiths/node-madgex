@@ -6,9 +6,12 @@
 
 module.exports = {
     utils: utils,
-    createClient: function (sitename, credentials, requestOptions) {
+    createRestClient: function (sitename, credentials, requestOptions) {
         return {
-            restApi: restClient(sitename, credentials) 
+            restApi: restClient(sitename, credentials)
         }
+    },
+    createSoapClient: function() {
+
     }
 }

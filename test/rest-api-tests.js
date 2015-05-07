@@ -15,7 +15,7 @@ before(function(done) {
 describe('Madgex module', function () {
     this.timeout(5000);
 
-    var client = madgex.createClient(config.serviceName, config.credentials).restApi;
+    var client = madgex.createRestClient(config.serviceName, config.credentials).restApi;
     it("should provide the REST API facede", function () {
         assert.ok(client, "restApi not found");
     });
@@ -131,14 +131,4 @@ describe('Madgex module', function () {
     })
 })
 
-//describe('Madgex client', function () {
-//    describe("SOAP API facade", function () {
-//        var client = madgex.createClient("foobar", { key: "key", secret: "secret" });
-//        it("should be present", function () {
-//            assert.ok(client.restApi, "restApi not found");
-//        });
-
-
-//    })
-//})
 
