@@ -1,7 +1,0 @@
-{
-    "serviceName": "your service",
-    "credentials": {
-        "key": "your key",
-        "secret": "your secret"
-    }
-}

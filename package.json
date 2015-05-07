@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "node-madgex",
   "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive test"
+  },
   "author": {
     "name": "GuideSmiths",
     "email": "peter.zentai@guidesmiths.com"
@@ -14,5 +17,8 @@
     "nock": "^1.3.0",
     "oauth": "^0.9.12",
     "when": "^3.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
   }
 }
