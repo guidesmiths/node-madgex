@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <GetCategoryTermsResponse xmlns="http://jobboard.webservice.madgex.co.uk">
+      <GetCategoryTermsResult>
+        <WSTerm>
+          <ID>1</ID>
+          <Name>Agriculture, Food and Veterinary</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>2</ID>
+          <Name>Architecture, Building and Planning</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>3</ID>
+          <Name>Biological Sciences</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>4</ID>
+          <Name>Business and Management Studies</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>5</ID>
+          <Name>Computer Science</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>6</ID>
+          <Name>Creative Arts and Design</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>7</ID>
+          <Name>Economics</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>8</ID>
+          <Name>Education Studies</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>9</ID>
+          <Name>Engineering and Technology</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>10</ID>
+          <Name>Health and Medical</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>11</ID>
+          <Name>Historical and Philosophical Studies</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>12</ID>
+          <Name>Information Management and Librarianship</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>13</ID>
+          <Name>Languages, Literature and Culture</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>14</ID>
+          <Name>Law</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>15</ID>
+          <Name>Mathematics and Statistics</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>16</ID>
+          <Name>Media and Communications</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>17</ID>
+          <Name>Physical and Environmental Sciences</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>18</ID>
+          <Name>Politics and Government</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>19</ID>
+          <Name>Psychology</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>20</ID>
+          <Name>Social Sciences and Social Care</Name>
+        </WSTerm>
+        <WSTerm>
+          <ID>21</ID>
+          <Name>Sport and Leisure</Name>
+        </WSTerm>
+      </GetCategoryTermsResult>
+    </GetCategoryTermsResponse>
+  </soap:Body>
+</soap:Envelope>

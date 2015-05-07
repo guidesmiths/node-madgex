@@ -1,0 +1,19 @@
+{
+    "billingApi": {
+        "path": "/billing.asmx",
+        "services": {
+            "GetCategories": {
+                "arrays": [
+                    "/soap:Envelope/soap:Body/getCategoriesResponse/getCategoriesResult/wSCategory"
+                ],
+                "result": "/soap:Envelope/soap:Body/getCategoriesResponse/getCategoriesResult/wSCategory"
+            },
+            "GetCategoryTerms": {
+                "arrays": [
+                    "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
+                ],
+                "result": "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
+            }
+        }
+    }
+}

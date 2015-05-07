@@ -1,17 +1,14 @@
-﻿var debug = require('debug')('node-madgex'),
-    utils = require('./lib/util.js'),
-    restClient = require('./lib/rest-api-client.js')
-
-
+﻿var debug = require('debug')('node-madgex')
+var utils = require('./lib/util.js')
+var restClient = require('./lib/rest-api-client.js')
+var soapClient = require('./lib/soap-api-client.js')
 
 module.exports = {
     utils: utils,
-    createRestClient: function (sitename, credentials, requestOptions) {
+    createClient: function(baseUrl, credentials) {
         return {
-            restApi: restClient(sitename, credentials)
+            restApi: restClient(baseUrl, credentials),
+            soapApi: soapClient(baseUrl)
         }
-    },
-    createSoapClient: function() {
-
     }
 }
