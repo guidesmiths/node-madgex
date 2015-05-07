@@ -65,7 +65,7 @@ Extend this to add new functions to the API. (/lib/rest-api-service-description.
 # API documentation
 
 ##jobinfo(params, done)
-Displays information about a job 
+Displays information about a job
 
 ####params
 a hash with the following fields
@@ -123,3 +123,13 @@ just
 mocha
 
 Make sure you have updated the service-config.json with your specific key, secret and sitename.
+
+```json
+{
+    "serviceName": "your service",
+    "credentials": {
+        "key": "your key",
+        "secret": "your secret"
+    }
+}
+```
