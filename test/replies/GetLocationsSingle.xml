@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetLocationsResponse xmlns="http://jobboard.webservice.madgex.co.uk">
+         <GetLocationsResult>
+            <WSLocation>
+               <LocationId>17116</LocationId>
+               <Label>Longney, Gloucester</Label>
+               <Name>Longney</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+         </GetLocationsResult>
+      </GetLocationsResponse>
+   </soap:Body>
+</soap:Envelope>

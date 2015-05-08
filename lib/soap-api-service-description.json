@@ -13,6 +13,15 @@
                     "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
                 ],
                 "result": "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
+            },
+            "AddBilledJob": {
+
+            },
+            "GetLocations": {
+                "arrays": [
+                    "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
+                ],
+                "result": "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
             }
         }
     }

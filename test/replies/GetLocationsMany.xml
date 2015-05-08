@@ -1,0 +1,148 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetLocationsResponse xmlns="http://jobboard.webservice.madgex.co.uk">
+         <GetLocationsResult>
+            <WSLocation>
+               <LocationId>325</LocationId>
+               <Label>London (Greater)</Label>
+               <Name>London (Greater)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>5</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>1500</LocationId>
+               <Label>London (Central), London (Greater)</Label>
+               <Name>London (Central)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>6</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>289</LocationId>
+               <Label>Londonderry (County)</Label>
+               <Name>Londonderry</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>5</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>5920616</LocationId>
+               <Label>London (East), London (Greater)</Label>
+               <Name>London (East)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>6</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>5920618</LocationId>
+               <Label>London (West), London (Greater)</Label>
+               <Name>London (West)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>6</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>5920615</LocationId>
+               <Label>London (North), London (Greater)</Label>
+               <Name>London (North)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>6</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>5920617</LocationId>
+               <Label>London (South), London (Greater)</Label>
+               <Name>London (South)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>6</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>538</LocationId>
+               <Label>Longhope, Gloucestershire</Label>
+               <Name>Longhope</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>8</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>1819</LocationId>
+               <Label>Longfield, Kent</Label>
+               <Name>Longfield</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>8</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>1268</LocationId>
+               <Label>Longniddry, East Lothian</Label>
+               <Name>Longniddry</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>8</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>660</LocationId>
+               <Label>Londonderry (City/Town)</Label>
+               <Name>Londonderry</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>8</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>1784215</LocationId>
+               <Label>London (City of), London (Greater)</Label>
+               <Name>London (City of)</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>9</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>13542</LocationId>
+               <Label>Lonlas, Neath</Label>
+               <Name>Lonlas</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>5172</LocationId>
+               <Label>Lonmay, Fraserburgh</Label>
+               <Name>Lonmay</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>26439</LocationId>
+               <Label>Longcot, Faringdon</Label>
+               <Name>Longcot</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>10374</LocationId>
+               <Label>Longden, Shrewsbury</Label>
+               <Name>Longden</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>3122</LocationId>
+               <Label>Longdon, Rugeley</Label>
+               <Name>Longdon</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>16462</LocationId>
+               <Label>Longdon, Tewkesbury</Label>
+               <Name>Longdon</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>16313</LocationId>
+               <Label>Longham, Dereham</Label>
+               <Name>Longham</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+            <WSLocation>
+               <LocationId>17116</LocationId>
+               <Label>Longney, Gloucester</Label>
+               <Name>Longney</Name>
+               <CountryIsoCode>GB</CountryIsoCode>
+               <RegionLevel>10</RegionLevel>
+            </WSLocation>
+         </GetLocationsResult>
+      </GetLocationsResponse>
+   </soap:Body>
+</soap:Envelope>

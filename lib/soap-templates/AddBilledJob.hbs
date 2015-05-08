@@ -1,0 +1,50 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:job="http://jobboard.webservice.madgex.co.uk">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <job:AddBilledJob>
+         <job:sRecruiterBillingID>{{recruiterBillingId}}</job:sRecruiterBillingID>
+         <job:sEmployerBillingID>{{employerBillingId}}</job:sEmployerBillingID>
+         <job:sJobID>{{id}}</job:sJobID>
+         {{#if startDateTime}}<job:sStartDateTime>{{startDateTime}}</job:sStartDateTime>{{/if}}
+         {{#if endDateTime}}<job:sEndDateTime>{{endDateTime}}</job:sEndDateTime>{{/if}}
+         {{#if applicationMethod}}<job:sApplicationMethod>{{applicationMethod}}</job:sApplicationMethod>{{/if}}
+         {{#if applicationEmail}}<job:sApplicationEmail>{{applicationEmail}}</job:sApplicationEmail>{{/if}}
+         {{#if externalApplicationUrl}}<job:sExternalApplicationURL>{{externalApplicationUrl}}</job:sExternalApplicationURL>{{/if}}
+         <job:jobProperties>
+            {{#each properties}}
+            <job:WSJobPropertyValue>
+               <job:Name>{{@key}}</job:Name>
+               <job:Value>{{this}}</job:Value>
+            </job:WSJobPropertyValue>
+            {{/each}}
+         </job:jobProperties>
+         <job:jobCategorization>
+            {{#each categorization.terms}}
+            <job:WSSelectedTerms>
+               <job:CategoryID>{{categoryId}}</job:CategoryID>
+               {{#if termIds}}
+               <job:TermIDs>
+                  {{#each termIds}}
+                  <job:int>{{this}}</job:int>
+                  {{/each}}
+               </job:TermIDs>
+               {{/if}}
+            </job:WSSelectedTerms>
+            {{/each}}
+         </job:jobCategorization>
+         {{#if upsells}}
+         <job:jobUpsells>
+            {{#each upsells}}
+            <job:WSUpsell>
+               <job:ID>{{this.id}}</job:ID>
+               {{#if this.name}}<job:Name>{{this.name}}</job:Name>{{/if}}
+            </job:WSUpsell>
+            {{/each}}
+         </job:jobUpsells>
+         {{/if}}
+         {{#defined productId}}<job:liProductID>{{productId}}</job:liProductID>{{else}}<job:liProductID xsi:nil="true"/>{{/defined}}
+         {{#defined priceSoldAt}}<job:liPriceSoldAt>{{priceSoldAt}}</job:liPriceSoldAt>{{else}}<job:liPriceSoldAt xsi:nil="true"/>{{/defined}}
+         {{#defined isBackFill}}<job:isBackFill>{{isBackFill}}</job:isBackFill>{{else}}<job:isBackFill xsi:nil="true"/>{{/defined}}
+      </job:AddBilledJob>
+   </soapenv:Body>
+</soapenv:Envelope>
