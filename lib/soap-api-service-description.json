@@ -21,13 +21,13 @@
                 "result": "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
             },
             "AddBilledJob": {
-
+                "result": "/soap:Envelope/soap:Body/addBilledJobResponse/addBilledJobResult"
             },
             "UpdateBilledJob": {
 
             },
             "AddRecruiterV2": {
-
+                "result": "/soap:Envelope/soap:Body/addRecruiterV2Response/addRecruiterV2Result"
             }
         }
     }

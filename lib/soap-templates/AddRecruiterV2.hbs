@@ -3,72 +3,50 @@
    <soapenv:Body>
       <job:AddRecruiterV2>
          <job:data>
-            <!--Optional:-->
-            <job:RecruiterName>?</job:RecruiterName>
-            <!--Optional:-->
-            <job:CustomerBillingID>?</job:CustomerBillingID>
-            <!--Optional:-->
-            <job:ContactFirstName>?</job:ContactFirstName>
-            <!--Optional:-->
-            <job:ContactLastName>?</job:ContactLastName>
-            <!--Optional:-->
-            <job:ContactLastName2>?</job:ContactLastName2>
-            <!--Optional:-->
-            <job:Address1>?</job:Address1>
-            <!--Optional:-->
-            <job:Address2>?</job:Address2>
-            <!--Optional:-->
-            <job:Address3>?</job:Address3>
-            <!--Optional:-->
-            <job:TownCity>?</job:TownCity>
-            <!--Optional:-->
-            <job:CountyState>?</job:CountyState>
-            <!--Optional:-->
-            <job:ZipPostCode>?</job:ZipPostCode>
-            <!--Optional:-->
-            <job:Country>?</job:Country>
-            <!--Optional:-->
-            <job:Telephone>?</job:Telephone>
-            <!--Optional:-->
-            <job:ContactEmail>?</job:ContactEmail>
-            <job:RecruiterTypeID>?</job:RecruiterTypeID>
-            <!--Optional:-->
+            {{#if recruiterName}}<job:RecruiterName>{{recruiterName}}</job:RecruiterName>{{/if}}
+            {{#if customerBillingID}}<job:CustomerBillingID>{{customerBillingID}}</job:CustomerBillingID>{{/if}}
+            {{#if contactFirstName}}<job:ContactFirstName>{{contactFirstName}}</job:ContactFirstName>{{/if}}
+            {{#if contactLastName}}<job:ContactLastName>{{contactLastName}}</job:ContactLastName>{{/if}}
+            {{#if contactLastName2}}<job:ContactLastName2>{{contactLastName2}}</job:ContactLastName2>{{/if}}
+            {{#if address1}}<job:Address1>{{address1}}</job:Address1>{{/if}}
+            {{#if address2}}<job:Address2>{{address2}}</job:Address2>{{/if}}
+            {{#if address3}}<job:Address3>{{address3}}</job:Address3>{{/if}}
+            {{#if townCity}}<job:TownCity>{{townCity}}</job:TownCity>{{/if}}
+            {{#if countyState}}<job:CountyState>{{countyState}}</job:CountyState>{{/if}}
+            {{#if zipPostCode}}<job:ZipPostCode>{{zipPostCode}}</job:ZipPostCode>{{/if}}
+            {{#if country}}<job:Country>{{country}}</job:Country>{{/if}}
+            {{#if telephone}}<job:Telephone>{{telephone}}</job:Telephone>{{/if}}
+            {{#if contactEmail}}<job:ContactEmail>{{contactEmail}}</job:ContactEmail>{{/if}}
+            <job:RecruiterTypeID>{{recruiterTypeID}}</job:RecruiterTypeID>
+            {{#if image}}
             <job:Image>
-               <!--Optional:-->
-               <job:AssetID>?</job:AssetID>
-               <!--Optional:-->
-               <job:Base64BlobString>?</job:Base64BlobString>
+               {{#if image.assetId}}<job:AssetID>{{image.assetId}}</job:AssetID>{{/if}}
+               {{#if image.base64BlobString}}<job:Base64BlobString>{{image.base64BlobString}}</job:Base64BlobString>{{/if}}
             </job:Image>
-            <!--Optional:-->
+            {{/if}}
+            {{#if enhancedJobHtml}}
             <job:EnhancedJobHtml>
-               <!--Optional:-->
-               <job:JobTitleTextCss>?</job:JobTitleTextCss>
-               <!--Optional:-->
-               <job:JobHeadingsTextCss>?</job:JobHeadingsTextCss>
-               <!--Optional:-->
-               <job:ButtonBackgroundCss>?</job:ButtonBackgroundCss>
-               <!--Optional:-->
-               <job:ButtonTextCss>?</job:ButtonTextCss>
-               <!--Optional:-->
-               <job:HyperLinkCss>?</job:HyperLinkCss>
-               <!--Optional:-->
+               {{#if enhancedJobHtml.jobTitleTextCss}}<job:JobTitleTextCss>{{enhancedJobHtml.jobTitleTextCss}}</job:JobTitleTextCss>{{/if}}
+               {{#if enhancedJobHtml.jobHeadingsTextCss}}<job:JobHeadingsTextCss>{{enhancedJobHtml.jobHeadingsTextCss}}</job:JobHeadingsTextCss>{{/if}}
+               {{#if enhancedJobHtml.buttonBackgroundCss}}<job:ButtonBackgroundCss>{{enhancedJobHtml.buttonBackgroundCss}}</job:ButtonBackgroundCss>{{/if}}
+               {{#if enhancedJobHtml.buttonTextCss}}<job:ButtonTextCss>{{enhancedJobHtml.buttonTextCss}}</job:ButtonTextCss>{{/if}}
+               {{#if enhancedJobHtml.hyperLinkCss}}<job:HyperLinkCss>{{enhancedJobHtml.hyperLinkCss}}</job:HyperLinkCss>{{/if}}
+               {{#if enhancedJobHtml.banner}}
                <job:Banner>
-                  <!--Optional:-->
-                  <job:AssetID>?</job:AssetID>
-                  <!--Optional:-->
-                  <job:Base64BlobString>?</job:Base64BlobString>
+                  {{#if enhancedJobHtml.banner.assetId}}<job:AssetID>{{enhancedJobHtml.banner.assetId}}</job:AssetID>{{/if}}
+                  {{#if enhancedJobHtml.banner.base64BlobString}}<job:Base64BlobString>{{enhancedJobHtml.banner.base64BlobString}}</job:Base64BlobString>{{/if}}
                </job:Banner>
+               {{/if}}
             </job:EnhancedJobHtml>
-            <!--Optional:-->
+            {{/if}}
+            {{#if accountManager}}
             <job:AccountManager>
-               <!--Optional:-->
-               <job:EmailAddress>?</job:EmailAddress>
-               <!--Optional:-->
-               <job:FirstName>?</job:FirstName>
-               <!--Optional:-->
-               <job:LastName>?</job:LastName>
+               {{#if accountManager.emailAddress}}<job:EmailAddress>{{accountManager.emailAddress}}</job:EmailAddress>{{/if}}
+               {{#if accountManager.firstName}}<job:FirstName>{{accountManager.firstName}}</job:FirstName>{{/if}}
+               {{#if accountManager.lastName}}<job:LastName>{{accountManager.lastName}}</job:LastName>{{/if}}
             </job:AccountManager>
-            <job:CanAccessCvDatabase>?</job:CanAccessCvDatabase>
+            {{/if}}
+            {{#defined canAccessCvDatabase}}<job:CanAccessCvDatabase>{{canAccessCvDatabase}}</job:CanAccessCvDatabase>{{/defined}}
          </job:data>
       </job:AddRecruiterV2>
    </soapenv:Body>

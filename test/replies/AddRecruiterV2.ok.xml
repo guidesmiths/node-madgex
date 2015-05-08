@@ -1,7 +1,7 @@
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
    <soap:Body>
-      <AddBilledJobResponse xmlns="http://jobboard.webservice.madgex.co.uk">
-         <AddBilledJobResult>1340</AddBilledJobResult>
-      </AddBilledJobResponse>
+      <AddRecruiterV2Response xmlns="http://jobboard.webservice.madgex.co.uk">
+         <AddRecruiterV2Result>1339</AddRecruiterV2Result>
+      </AddRecruiterV2Response>
    </soap:Body>
 </soap:Envelope>
