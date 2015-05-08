@@ -54,7 +54,7 @@ describe.only('Madgex SOAP API', function() {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategoriesMany.xml');
+                    .replyWithFile(200, __dirname + '/replies/GetCategories.many.xml');
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ifError(err)
@@ -71,7 +71,7 @@ describe.only('Madgex SOAP API', function() {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategoriesSingle.xml');
+                    .replyWithFile(200, __dirname + '/replies/GetCategories.single.xml');
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ifError(err)
@@ -104,7 +104,7 @@ describe.only('Madgex SOAP API', function() {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategoryTermsMany.xml');
+                    .replyWithFile(200, __dirname + '/replies/GetCategoryTerms.many.xml');
 
                 client.billingApi.getCategoryTerms({categoryId: 100}, function(err, results) {
                     assert.ifError(err)
@@ -120,7 +120,7 @@ describe.only('Madgex SOAP API', function() {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategoryTermsSingle.xml')
+                    .replyWithFile(200, __dirname + '/replies/GetCategoryTerms.single.xml')
 
                 client.billingApi.getCategoryTerms({categoryId: 100}, function(err, results) {
                     assert.ifError(err)
@@ -141,7 +141,7 @@ describe.only('Madgex SOAP API', function() {
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
                         assert.equal($('job\\:searchPrefix').text(), 'Lon')
-                        return fs.createReadStream(__dirname + '/replies/GetLocationsMany.xml')
+                        return fs.createReadStream(__dirname + '/replies/GetLocations.many.xml')
                     });
 
                 client.billingApi.getLocations({prefix: 'Lon'}, function(err, results) {
@@ -157,7 +157,7 @@ describe.only('Madgex SOAP API', function() {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetLocationsSingle.xml');
+                    .replyWithFile(200, __dirname + '/replies/GetLocations.single.xml');
 
                 client.billingApi.getLocations({prefix: 'Longney'}, function(err, results) {
                     assert.ifError(err)
@@ -210,7 +210,7 @@ describe.only('Madgex SOAP API', function() {
                         assert.equal($('job\\:liProductID').text(), 'product-id')
                         assert.equal($('job\\:liPriceSoldAt').text(), '100')
                         assert.equal($('job\\:isBackFill').text(), 'true')
-                        return fs.createReadStream(__dirname + '/replies/AddBilledJobOK.xml')
+                        return fs.createReadStream(__dirname + '/replies/AddBilledJob.ok.xml')
                     })
 
                 client.billingApi.addBilledJob({
@@ -273,7 +273,7 @@ describe.only('Madgex SOAP API', function() {
                         assert.equal($('job\\:jobCategorization').length, 1)
                         assert.equal($('job\\:jobCategorization job\\:WSSelectedTerms').length, 0)
                         assert.equal($('job\\:jobUpsells').length, 0)
-                        return fs.createReadStream(__dirname + '/replies/AddBilledJobOK.xml')
+                        return fs.createReadStream(__dirname + '/replies/AddBilledJob.ok.xml')
                     })
 
                 client.billingApi.addBilledJob({
@@ -300,7 +300,7 @@ describe.only('Madgex SOAP API', function() {
                         assert.equal($('job\\:liPriceSoldAt').attr('xsi:nil'), 'true')
                         assert.equal($('job\\:isBackFill').length, 1)
                         assert.equal($('job\\:isBackFill').attr('xsi:nil'), 'true')
-                        return fs.createReadStream(__dirname + '/replies/AddBilledJobOK.xml')
+                        return fs.createReadStream(__dirname + '/replies/AddBilledJob.ok.xml')
                     })
 
                 client.billingApi.addBilledJob({
@@ -326,7 +326,34 @@ describe.only('Madgex SOAP API', function() {
                         assert.equal($('job\\:sRecruiterBillingID').text(), 'rec-1')
                         assert.equal($('job\\:sEmployerBillingID').text(), 'emp-1')
                         assert.equal($('job\\:sJobID').text(), 'job-1')
-                        return fs.createReadStream(__dirname + '/replies/UpdateBilledJobOK.xml')
+                        return fs.createReadStream(__dirname + '/replies/UpdateBilledJob.ok.xml')
+                    })
+
+                client.billingApi.updateBilledJob({
+                   id: 'job-1',
+                   recruiterBillingId: 'rec-1',
+                   employerBillingId: 'emp-1'
+                }, function(err, results) {
+                    assert.ifError(err)
+                    done()
+                })
+            })
+        })
+
+
+        describe('AddRecruiterV2', function() {
+
+            // Madgex Billing Test Site is currently broken
+            xit('should add recruiter', function(done) {
+
+                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                    .post('/billing.asmx')
+                    .reply(function(uri, requestBody) {
+                        var $ = cheerio.load(requestBody, { xmlMode: true })
+                        assert.equal($('job\\:sRecruiterBillingID').text(), 'rec-1')
+                        assert.equal($('job\\:sEmployerBillingID').text(), 'emp-1')
+                        assert.equal($('job\\:sJobID').text(), 'job-1')
+                        return fs.createReadStream(__dirname + '/replies/UpdateBilledJob.ok.xml')
                     })
 
                 client.billingApi.updateBilledJob({
