@@ -17,6 +17,9 @@
             "AddBilledJob": {
 
             },
+            "UpdateBilledJob": {
+
+            },
             "GetLocations": {
                 "arrays": [
                     "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
