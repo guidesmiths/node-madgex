@@ -14,17 +14,20 @@
                 ],
                 "result": "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
             },
+            "GetLocations": {
+                "arrays": [
+                    "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
+                ],
+                "result": "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
+            },
             "AddBilledJob": {
 
             },
             "UpdateBilledJob": {
 
             },
-            "GetLocations": {
-                "arrays": [
-                    "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
-                ],
-                "result": "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
+            "AddRecruiterV2": {
+
             }
         }
     }

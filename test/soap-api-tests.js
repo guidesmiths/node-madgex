@@ -16,15 +16,37 @@ before(function(done) {
     })
 })
 
-describe('Madgex SOAP API', function() {
+describe.only('Madgex SOAP API', function() {
     this.timeout(5000)
 
     var client = madgex.createClient(config.baseUrl, config.credentials).soapApi
 
-    describe('SOAP API facade', function() {
+    describe('Billing API', function() {
 
-        it('should have a billing API part', function () {
-            assert.ok(client.billingApi, 'billing api branch not found')
+        it('should report errors', function(done) {
+
+            var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                .post('/billing.asmx')
+                .replyWithError('Test Error');
+
+            client.billingApi.getCategories(function(err, results) {
+                assert.ok(err)
+                assert.equal(err.message, 'POST http://timeshighereducation-webservice.madgexjbtest.com/billing.asmx failed. Original error was: Test Error')
+                done()
+            })
+        })
+
+        it('should report failures', function(done) {
+
+            var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                .post('/billing.asmx')
+                .reply(400);
+
+            client.billingApi.getCategories(function(err, results) {
+                assert.ok(err)
+                assert.equal(err.message, 'POST http://timeshighereducation-webservice.madgexjbtest.com/billing.asmx failed. Status code was: 400')
+                done()
+            })
         })
 
         describe('GetCategories', function() {
@@ -58,6 +80,19 @@ describe('Madgex SOAP API', function() {
                     assert.equal(results[0].multiSelect, true)
                     assert.equal(results[0].id, 105)
                     assert.equal(results[0].name, 'Hours')
+                    done()
+                })
+            })
+
+            it.only('should survive bad responses', function(done) {
+
+                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                    .post('/billing.asmx')
+                    .reply(200, 'not xml mwahahaha');
+
+                client.billingApi.getCategories(function(err, results) {
+                    assert.ok(err)
+                    assert.equal(err.message, 'Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: n')
                     done()
                 })
             })
