@@ -1,0 +1,53 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:job="http://jobboard.webservice.madgex.co.uk">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <job:UpdateRecruiterWithBillingID>
+         <job:data>
+            {{#if recruiterName}}<job:RecruiterName>{{recruiterName}}</job:RecruiterName>{{/if}}
+            {{#if customerBillingID}}<job:CustomerBillingID>{{customerBillingID}}</job:CustomerBillingID>{{/if}}
+            {{#if contactFirstName}}<job:ContactFirstName>{{contactFirstName}}</job:ContactFirstName>{{/if}}
+            {{#if contactLastName}}<job:ContactLastName>{{contactLastName}}</job:ContactLastName>{{/if}}
+            {{#if contactLastName2}}<job:ContactLastName2>{{contactLastName2}}</job:ContactLastName2>{{/if}}
+            {{#if address1}}<job:Address1>{{address1}}</job:Address1>{{/if}}
+            {{#if address2}}<job:Address2>{{address2}}</job:Address2>{{/if}}
+            {{#if address3}}<job:Address3>{{address3}}</job:Address3>{{/if}}
+            {{#if townCity}}<job:TownCity>{{townCity}}</job:TownCity>{{/if}}
+            {{#if countyState}}<job:CountyState>{{countyState}}</job:CountyState>{{/if}}
+            {{#if zipPostCode}}<job:ZipPostCode>{{zipPostCode}}</job:ZipPostCode>{{/if}}
+            {{#if country}}<job:Country>{{country}}</job:Country>{{/if}}
+            {{#if telephone}}<job:Telephone>{{telephone}}</job:Telephone>{{/if}}
+            {{#if contactEmail}}<job:ContactEmail>{{contactEmail}}</job:ContactEmail>{{/if}}
+            <job:RecruiterTypeID>{{recruiterTypeID}}</job:RecruiterTypeID>
+            {{#if image}}
+            <job:Image>
+               {{#if image.assetId}}<job:AssetID>{{image.assetId}}</job:AssetID>{{/if}}
+               {{#if image.base64BlobString}}<job:Base64BlobString>{{image.base64BlobString}}</job:Base64BlobString>{{/if}}
+            </job:Image>
+            {{/if}}
+            {{#if enhancedJobHtml}}
+            <job:EnhancedJobHtml>
+               {{#if enhancedJobHtml.jobTitleTextCss}}<job:JobTitleTextCss>{{enhancedJobHtml.jobTitleTextCss}}</job:JobTitleTextCss>{{/if}}
+               {{#if enhancedJobHtml.jobHeadingsTextCss}}<job:JobHeadingsTextCss>{{enhancedJobHtml.jobHeadingsTextCss}}</job:JobHeadingsTextCss>{{/if}}
+               {{#if enhancedJobHtml.buttonBackgroundCss}}<job:ButtonBackgroundCss>{{enhancedJobHtml.buttonBackgroundCss}}</job:ButtonBackgroundCss>{{/if}}
+               {{#if enhancedJobHtml.buttonTextCss}}<job:ButtonTextCss>{{enhancedJobHtml.buttonTextCss}}</job:ButtonTextCss>{{/if}}
+               {{#if enhancedJobHtml.hyperLinkCss}}<job:HyperLinkCss>{{enhancedJobHtml.hyperLinkCss}}</job:HyperLinkCss>{{/if}}
+               {{#if enhancedJobHtml.banner}}
+               <job:Banner>
+                  {{#if enhancedJobHtml.banner.assetId}}<job:AssetID>{{enhancedJobHtml.banner.assetId}}</job:AssetID>{{/if}}
+                  {{#if enhancedJobHtml.banner.base64BlobString}}<job:Base64BlobString>{{enhancedJobHtml.banner.base64BlobString}}</job:Base64BlobString>{{/if}}
+               </job:Banner>
+               {{/if}}
+            </job:EnhancedJobHtml>
+            {{/if}}
+            {{#if accountManager}}
+            <job:AccountManager>
+               {{#if accountManager.emailAddress}}<job:EmailAddress>{{accountManager.emailAddress}}</job:EmailAddress>{{/if}}
+               {{#if accountManager.firstName}}<job:FirstName>{{accountManager.firstName}}</job:FirstName>{{/if}}
+               {{#if accountManager.lastName}}<job:LastName>{{accountManager.lastName}}</job:LastName>{{/if}}
+            </job:AccountManager>
+            {{/if}}
+            {{#defined canAccessCvDatabase}}<job:CanAccessCvDatabase>{{canAccessCvDatabase}}</job:CanAccessCvDatabase>{{/defined}}
+         </job:data>
+      </job:UpdateRecruiterWithBillingID>
+   </soapenv:Body>
+</soapenv:Envelope>

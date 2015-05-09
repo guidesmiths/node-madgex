@@ -3,31 +3,28 @@
         "path": "/billing.asmx",
         "services": {
             "GetCategories": {
-                "arrays": [
-                    "/soap:Envelope/soap:Body/getCategoriesResponse/getCategoriesResult/wSCategory"
-                ],
+                "forceArray": true,
                 "result": "/soap:Envelope/soap:Body/getCategoriesResponse/getCategoriesResult/wSCategory"
             },
             "GetCategoryTerms": {
-                "arrays": [
-                    "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
-                ],
+                "forceArray": true,
                 "result": "/soap:Envelope/soap:Body/getCategoryTermsResponse/getCategoryTermsResult/wSTerm"
             },
             "GetLocations": {
-                "arrays": [
-                    "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
-                ],
+                "forceArray": true,
                 "result": "/soap:Envelope/soap:Body/getLocationsResponse/getLocationsResult/wSLocation"
             },
             "AddBilledJob": {
                 "result": "/soap:Envelope/soap:Body/addBilledJobResponse/addBilledJobResult"
             },
             "UpdateBilledJob": {
-
+                "result": "/soap:Envelope/soap:Body/updateBilledJobResponse/updateBilledJobResult"
             },
             "AddRecruiterV2": {
                 "result": "/soap:Envelope/soap:Body/addRecruiterV2Response/addRecruiterV2Result"
+            },
+            "UpdateRecruiterWithBillingID": {
+                "result": "/soap:Envelope/soap:Body/updateRecruiterWithBillingIdResponse/updateRecruiterWithBillingIdResult"
             }
         }
     }

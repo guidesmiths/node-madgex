@@ -171,7 +171,6 @@ describe('Madgex SOAP API', function() {
 
         describe('AddBilledJob', function() {
 
-            // Madgex Billing Test Site is currently broken
             it('should add a billed job', function(done) {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
@@ -257,8 +256,7 @@ describe('Madgex SOAP API', function() {
                 })
             })
 
-            // Madgex Billing Test Site is currently broken
-            xit('should omit optional elements when not specified', function(done) {
+            it('should omit optional elements when not specified', function(done) {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
@@ -287,8 +285,7 @@ describe('Madgex SOAP API', function() {
                 })
             })
 
-            // Madgex Billing Test Site is currently broken
-            xit('should use xsi:nil for certain elements with minOcccurs=1 mandatory=false when not specified', function(done) {
+            it('should use xsi:nil for certain elements with minOcccurs=1 mandatory=false when not specified', function(done) {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
@@ -316,9 +313,7 @@ describe('Madgex SOAP API', function() {
 
         describe('UpdateBilledJob', function() {
 
-            // Madgex Billing Test Site is currently broken
-            xit('should update a billed job', function(done) {
-
+            it('should update a billed job', function(done) {
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
@@ -332,9 +327,34 @@ describe('Madgex SOAP API', function() {
                 client.billingApi.updateBilledJob({
                    id: 'job-1',
                    recruiterBillingId: 'rec-1',
-                   employerBillingId: 'emp-1'
-                }, function(err, results) {
+                   employerBillingId: 'emp-1',
+                   startDateTime: '13/01/2015 10:35',
+                   endDateTime: '14/01/2025 14:55',
+                   applicationMethod: 'ExternalRedirect',
+                   applicationEmail: 'foo@example.com',
+                   externalApplicationUrl: 'http://www.example.com/jobzRus',
+                   properties: {
+                      JobTitle: 'job-title',
+                      JobDescription: 'job-description'
+                   },
+                   categorization: {
+                      terms: [
+                         {
+                            categoryId: 100,
+                            termIds: [1, 2, 3]
+                         },
+                         {
+                            categoryId: 101,
+                            termIds: [4, 5, 6]
+                         }
+                      ]
+                   },
+                   productId: 'product-id',
+                   priceSoldAt: 100,
+                   isBackFill: true
+                }, function(err, result) {
                     assert.ifError(err)
+                    assert.equal(result, 1340)
                     done()
                 })
             })
