@@ -363,7 +363,6 @@ describe('Madgex SOAP API', function() {
 
         describe('AddRecruiterV2', function() {
 
-            // Madgex Billing Test Site is currently broken
             it('should add recruiter', function(done) {
 
                 var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
