@@ -2,24 +2,19 @@
 
 var madgex = require('../index.js')
 var assert = require('assert')
-var config = require('./service-config.json')
 var fs = require('fs')
 var path = require('path')
 var nock = require('nock')
 var cheerio = require ('cheerio')
 
-before(function(done) {
-
-    fs.exists(path.join(__dirname, 'service-config.json'), function(exists) {
-        if (exists) return done()
-        return done(new Error('service-config.json does not exist'))
-    })
-})
 
 describe('Madgex SOAP API', function() {
     this.timeout(5000)
 
-    var client = madgex.createClient(config.baseUrl, config.credentials).soapApi
+    var client = madgex.createClient('http://guidesmiths-webservice.madgexjbtest.com', {
+        key: "madgex-test-key",
+        secret: "madgex-test-secret"
+    }).soapApi
 
     describe('Billing API', function() {
 

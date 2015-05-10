@@ -2,25 +2,16 @@
     assert = require('assert'),
     fs = require('fs'),
     path = require('path'),
-    config = require('./service-config.json')
     nock = require('nock')
-
-before(function(done) {
-
-    // nock.enableNetConnect()
-    // nock.recorder.rec()
-
-    fs.exists(path.join(__dirname, 'service-config.json'), function(exists) {
-        if (exists) return done()
-        return done(new Error('service-config.json does not exist'))
-    })
-})
 
 describe('Madgex Client REST API', function () {
 
     this.timeout(5000);
 
-    var client = madgex.createClient(config.serviceName, config.credentials).restApi;
+    var client = madgex.createClient('http://guidesmiths-webservice.madgexjbtest.com', {
+        key: "madgex-test-key",
+        secret: "madgex-test-secret"
+    }).restApi;
 
     it("should have a jobInfo API part", function () {
         assert.ok(client.jobinfo, "jobInfo api branch not found");
