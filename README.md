@@ -162,10 +162,12 @@ On the plus side responses stripped of their SOAPiness and converted to camelCas
 you'll receive
 ```json
 [
-    "mandatory": false,
-    "multiSelect": true,
-    "id": 105,
-    "name": "hours"
+    {
+        "mandatory": false,
+        "multiSelect": true,
+        "id": 105,
+        "name": "hours"
+    }
 ]
 ```
 
