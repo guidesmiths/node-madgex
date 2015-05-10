@@ -1,7 +1,7 @@
 {
     "status": "ok",
     "result": {
-        "uriTemplate": "http://timeshighereducation-web.madgexjbtest.com/job/{jobId}/?trackid=22",
+        "uriTemplate": "http://guidesmiths-web.madgexjbtest.com/job/{jobId}/?trackid=22",
         "totalResults": 72,
         "startIndex": 0,
         "itemsPerPage": 30,
@@ -20,7 +20,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1257/senior-lecturer-in-criminology/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1257/senior-lecturer-in-criminology/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.newman.ac.uk/jobs"
@@ -65,7 +65,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1263/deputy-vice-chancellor-student-experience/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1263/deputy-vice-chancellor-student-experience/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.perrettlaver.com/westminster"
@@ -107,7 +107,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1261/senior-lecturer-appointment-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1261/senior-lecturer-appointment-/?trackid=22",
                     "type": "email-applications",
                     "allowMobileExternalRedirects": true
                 },
@@ -148,7 +148,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1260/senior-lecturer-appointment-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1260/senior-lecturer-appointment-/?trackid=22",
                     "type": "email-applications",
                     "allowMobileExternalRedirects": true
                 },
@@ -189,7 +189,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1259/senior-lecturer-appointment-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1259/senior-lecturer-appointment-/?trackid=22",
                     "type": "email-applications",
                     "allowMobileExternalRedirects": true
                 },
@@ -232,7 +232,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1256/lecturer-working-with-children-young-people-and-families/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1256/lecturer-working-with-children-young-people-and-families/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.newman.ac.uk/jobs"
@@ -277,7 +277,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1254/appointment-of-vice-principal-and-executive-dean-science-and-engineering-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1254/appointment-of-vice-principal-and-executive-dean-science-and-engineering-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
@@ -323,7 +323,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1252/director-of-learning-and-teaching-designate-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1252/director-of-learning-and-teaching-designate-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.berwickpartners.co.uk/candidates/assignment/51800"
@@ -365,7 +365,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1250/director-of-human-resources-and-development/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1250/director-of-human-resources-and-development/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.saxbam.com/jobs"
@@ -416,7 +416,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1248/systems-administrator-apple-macintosh-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1248/systems-administrator-apple-macintosh-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.sussex.ac.uk/jobs"
@@ -461,7 +461,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1247/lecturer-senior-lecturer-or-reader-in-power-electronics-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1247/lecturer-senior-lecturer-or-reader-in-power-electronics-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.sussex.ac.uk/jobs"
@@ -506,7 +506,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1245/professor-and-head-of-the-department-of-mathematical-sciences/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1245/professor-and-head-of-the-department-of-mathematical-sciences/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.liv.ac.uk/working/job_vacancies"
@@ -557,7 +557,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1244/lecturer-in-psychology-addiction-or-pain-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1244/lecturer-in-psychology-addiction-or-pain-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.liv.ac.uk/working/job_vacancies"
@@ -602,7 +602,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1243/research-chair-in-computational-modelling-for-nuclear-engineering/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1243/research-chair-in-computational-modelling-for-nuclear-engineering/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
@@ -647,7 +647,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1242/professor-in-nuclear-engineering/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1242/professor-in-nuclear-engineering/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
@@ -692,7 +692,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1240/lecturer-in-english-literature-pre-1700-period-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1240/lecturer-in-english-literature-pre-1700-period-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.liv.ac.uk/working/job_vacancies"
@@ -737,7 +737,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1238/lse-fellow-in-international-history-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1238/lse-fellow-in-international-history-/?trackid=22",
                     "type": "email-applications",
                     "allowMobileExternalRedirects": true
                 },
@@ -780,7 +780,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1237/academic-registrar/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1237/academic-registrar/?trackid=22",
                     "type": "email-applications",
                     "allowMobileExternalRedirects": true
                 },
@@ -822,7 +822,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1235/vice-chancellor-and-president/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1235/vice-chancellor-and-president/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.perrettlaver.com/candidates"
@@ -865,7 +865,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1233/lecturer-senior-lecturer-posts-in-disruptive-technologies/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1233/lecturer-senior-lecturer-posts-in-disruptive-technologies/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "https://jobs.gre.ac.uk/Vacancy.aspx?ref=840"
@@ -911,7 +911,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1232/subject-lead-for-film-and-television/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1232/subject-lead-for-film-and-television/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "https://jobs.gre.ac.uk/Vacancy.aspx?ref=841"
@@ -957,7 +957,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1231/deputy-head-of-department-creative-professions-and-digital-arts/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1231/deputy-head-of-department-creative-professions-and-digital-arts/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "https://jobs.gre.ac.uk/Vacancy.aspx?ref=840"
@@ -1003,7 +1003,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1230/deputy-vice-chancellor-research-and-enterprise-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1230/deputy-vice-chancellor-research-and-enterprise-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.odgers.com/51759"
@@ -1048,7 +1048,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1228/research-lecturer-senior-lecturer-in-artificial-intelligence-interactive-systems/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1228/research-lecturer-senior-lecturer-in-artificial-intelligence-interactive-systems/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
@@ -1091,7 +1091,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1227/research-lecturer-senior-lecturer-in-criminology/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1227/research-lecturer-senior-lecturer-in-criminology/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
@@ -1134,7 +1134,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1226/research-lecturer-senior-lecturer-in-business-and-management/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1226/research-lecturer-senior-lecturer-in-business-and-management/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
@@ -1177,7 +1177,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1225/research-lecturer-senior-lecturer-in-social-policy-sociology/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1225/research-lecturer-senior-lecturer-in-social-policy-sociology/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
@@ -1220,7 +1220,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1224/research-lecturer-senior-lecturer-in-digital-media-and-culture/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1224/research-lecturer-senior-lecturer-in-digital-media-and-culture/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
@@ -1263,7 +1263,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1223/research-lecturer-senior-lecturer-in-health-sciences-research-systematic-reviewing-/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1223/research-lecturer-senior-lecturer-in-health-sciences-research-systematic-reviewing-/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"
@@ -1306,7 +1306,7 @@
                 ],
                 "jobRole": null,
                 "applyInfo": {
-                    "applyUrl": "http://timeshighereducation-web.madgexjbtest.com/apply/1222/research-lecturer-senior-lecturer-in-bim-and-energy-reduction-in-the-built-environment/?trackid=22",
+                    "applyUrl": "http://guidesmiths-web.madgexjbtest.com/apply/1222/research-lecturer-senior-lecturer-in-bim-and-energy-reduction-in-the-built-environment/?trackid=22",
                     "type": "external-redirect",
                     "allowMobileExternalRedirects": true,
                     "externalApplicationUrl": "http://www.tees.ac.uk/sections/jobs"

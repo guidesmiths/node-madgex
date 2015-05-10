@@ -1,0 +1,476 @@
+{
+  "status": "ok",
+  "result": {
+    "totalResults": 132,
+    "recruiterType": [
+      {
+        "id": -20,
+        "name": "Recruitment Consultant",
+        "count": 1
+      },
+      {
+        "id": -10,
+        "name": "Direct Employer",
+        "count": 132
+      }
+    ],
+    "academicDiscipline": [
+      {
+        "id": 1,
+        "name": "Agriculture, Food and Veterinary",
+        "count": 6
+      },
+      {
+        "id": 2,
+        "name": "Architecture, Building and Planning",
+        "count": 5
+      },
+      {
+        "id": 3,
+        "name": "Biological Sciences",
+        "count": 8
+      },
+      {
+        "id": 4,
+        "name": "Business and Management Studies",
+        "count": 16
+      },
+      {
+        "id": 5,
+        "name": "Computer Science",
+        "count": 11
+      },
+      {
+        "id": 6,
+        "name": "Creative Arts and Design",
+        "count": 12
+      },
+      {
+        "id": 7,
+        "name": "Economics",
+        "count": 8
+      },
+      {
+        "id": 8,
+        "name": "Education Studies",
+        "count": 8
+      },
+      {
+        "id": 9,
+        "name": "Engineering and Technology",
+        "count": 13
+      },
+      {
+        "id": 10,
+        "name": "Health and Medical",
+        "count": 8
+      },
+      {
+        "id": 11,
+        "name": "Historical and Philosophical Studies",
+        "count": 5
+      },
+      {
+        "id": 12,
+        "name": "Information Management and Librarianship",
+        "count": 7
+      },
+      {
+        "id": 13,
+        "name": "Languages, Literature and Culture",
+        "count": 13
+      },
+      {
+        "id": 14,
+        "name": "Law",
+        "count": 8
+      },
+      {
+        "id": 15,
+        "name": "Mathematics and Statistics",
+        "count": 8
+      },
+      {
+        "id": 16,
+        "name": "Media and Communications",
+        "count": 12
+      },
+      {
+        "id": 17,
+        "name": "Physical and Environmental Sciences",
+        "count": 4
+      },
+      {
+        "id": 18,
+        "name": "Politics and Government",
+        "count": 9
+      },
+      {
+        "id": 19,
+        "name": "Psychology",
+        "count": 10
+      },
+      {
+        "id": 20,
+        "name": "Social Sciences and Social Care",
+        "count": 8
+      },
+      {
+        "id": 21,
+        "name": "Sport and Leisure",
+        "count": 6
+      }
+    ],
+    "jobType": [
+      {
+        "id": 22,
+        "name": "Senior Management & Heads of Department",
+        "count": 51
+      },
+      {
+        "id": 23,
+        "name": "Vice-chancellors \/ Principals \/ Provosts",
+        "count": 3
+      },
+      {
+        "id": 24,
+        "name": "Deputy Vice-chancellors",
+        "count": 7
+      },
+      {
+        "id": 25,
+        "name": "Pro Vice-chancellors",
+        "count": 4
+      },
+      {
+        "id": 26,
+        "name": "Deans",
+        "count": 6
+      },
+      {
+        "id": 27,
+        "name": "Heads of Department",
+        "count": 11
+      },
+      {
+        "id": 28,
+        "name": "Chief Operating Officers",
+        "count": 4
+      },
+      {
+        "id": 29,
+        "name": "Registrars \/ Assistant Registrars",
+        "count": 3
+      },
+      {
+        "id": 30,
+        "name": "Directors",
+        "count": 13
+      },
+      {
+        "id": 31,
+        "name": "Other Senior Management",
+        "count": 9
+      },
+      {
+        "id": 32,
+        "name": "Academic Posts",
+        "count": 67
+      },
+      {
+        "id": 33,
+        "name": "Professors \/ Chairs",
+        "count": 8
+      },
+      {
+        "id": 34,
+        "name": "Readers \/ Senior Research Fellows",
+        "count": 5
+      },
+      {
+        "id": 35,
+        "name": "Principal \/ Senior Lecturers \/ Associate Professors",
+        "count": 25
+      },
+      {
+        "id": 36,
+        "name": "Lecturers \/ Assistant Professors",
+        "count": 28
+      },
+      {
+        "id": 37,
+        "name": "Tutors",
+        "count": 1
+      },
+      {
+        "id": 38,
+        "name": "Fellowships",
+        "count": 4
+      },
+      {
+        "id": 39,
+        "name": "Postdocs",
+        "count": 5
+      },
+      {
+        "id": 40,
+        "name": "Studentships",
+        "count": 9
+      },
+      {
+        "id": 41,
+        "name": "Other Academic",
+        "count": 2
+      },
+      {
+        "id": 42,
+        "name": "Academic Related",
+        "count": 16
+      },
+      {
+        "id": 43,
+        "name": "Librarians",
+        "count": 2
+      },
+      {
+        "id": 44,
+        "name": "Research Assistants",
+        "count": 4
+      },
+      {
+        "id": 45,
+        "name": "Technicians",
+        "count": 5
+      },
+      {
+        "id": 46,
+        "name": "Other Academic Related",
+        "count": 2
+      },
+      {
+        "id": 47,
+        "name": "Professional Services",
+        "count": 30
+      },
+      {
+        "id": 48,
+        "name": "Administrative",
+        "count": 3
+      },
+      {
+        "id": 49,
+        "name": "Estates and Facilities",
+        "count": 2
+      },
+      {
+        "id": 50,
+        "name": "Finance and Procurement",
+        "count": 6
+      },
+      {
+        "id": 51,
+        "name": "Fundraising, Development and Alumni",
+        "count": 8
+      },
+      {
+        "id": 52,
+        "name": "Human Resources",
+        "count": 4
+      },
+      {
+        "id": 53,
+        "name": "International Activities",
+        "count": 2
+      },
+      {
+        "id": 54,
+        "name": "IT Services",
+        "count": 1
+      },
+      {
+        "id": 55,
+        "name": "Knowledge Transfer \/ Business Links",
+        "count": 4
+      },
+      {
+        "id": 56,
+        "name": "Library \/ Records \/ Information Management",
+        "count": 2
+      },
+      {
+        "id": 57,
+        "name": "Marketing and Communications",
+        "count": 3
+      },
+      {
+        "id": 58,
+        "name": "Planning ",
+        "count": 3
+      },
+      {
+        "id": 59,
+        "name": "Registry",
+        "count": 3
+      },
+      {
+        "id": 60,
+        "name": "Student Recruitment \/ Admissions",
+        "count": 2
+      },
+      {
+        "id": 61,
+        "name": "Student Services",
+        "count": 1
+      },
+      {
+        "id": 62,
+        "name": "Other Professional Services",
+        "count": 2
+      }
+    ],
+    "salaryBand": [
+      {
+        "id": 63,
+        "name": "\u00a30-\u00a310,000",
+        "count": 5
+      },
+      {
+        "id": 64,
+        "name": "\u00a310,001 - \u00a320,000",
+        "count": 2
+      },
+      {
+        "id": 65,
+        "name": "\u00a320,001 - \u00a330,000",
+        "count": 3
+      },
+      {
+        "id": 66,
+        "name": "\u00a330,001 - \u00a340,000",
+        "count": 6
+      },
+      {
+        "id": 67,
+        "name": "\u00a340,001 - \u00a350,000",
+        "count": 1
+      },
+      {
+        "id": 68,
+        "name": "\u00a350,001 - \u00a360,000",
+        "count": 2
+      },
+      {
+        "id": 70,
+        "name": "\u00a370,001 - \u00a380,000",
+        "count": 2
+      },
+      {
+        "id": 71,
+        "name": "\u00a380,001 - \u00a390,000",
+        "count": 1
+      },
+      {
+        "id": 72,
+        "name": "\u00a390,001 - \u00a3100,000",
+        "count": 3
+      },
+      {
+        "id": 73,
+        "name": "\u00a3100,001 - \u00a3110,000",
+        "count": 4
+      },
+      {
+        "id": 74,
+        "name": "\u00a3110,001 - \u00a3120,000",
+        "count": 4
+      },
+      {
+        "id": 75,
+        "name": "\u00a3120,001 - \u00a3130,000",
+        "count": 1
+      },
+      {
+        "id": 76,
+        "name": "\u00a3130,001 - \u00a3140,000",
+        "count": 6
+      },
+      {
+        "id": 77,
+        "name": "\u00a3140,001 - \u00a3150,000",
+        "count": 2
+      },
+      {
+        "id": 78,
+        "name": "\u00a3150,001 - \u00a3160,000",
+        "count": 2
+      },
+      {
+        "id": 80,
+        "name": "\u00a3170,001 - \u00a3180,000",
+        "count": 1
+      },
+      {
+        "id": 81,
+        "name": "\u00a3180,001 - \u00a3190,000",
+        "count": 3
+      },
+      {
+        "id": 82,
+        "name": "\u00a3190,001 - \u00a3200,000",
+        "count": 3
+      },
+      {
+        "id": 84,
+        "name": "Daily Rate",
+        "count": 5
+      },
+      {
+        "id": 85,
+        "name": "Hourly Rate",
+        "count": 3
+      }
+    ],
+    "contractType": [
+      {
+        "id": 86,
+        "name": "Permanent",
+        "count": 105
+      },
+      {
+        "id": 87,
+        "name": "Temporary",
+        "count": 23
+      },
+      {
+        "id": 88,
+        "name": "Fixed Term",
+        "count": 25
+      },
+      {
+        "id": 89,
+        "name": "Maternity Cover",
+        "count": 19
+      }
+    ],
+    "hours": [
+      {
+        "id": 90,
+        "name": "Full Time",
+        "count": 110
+      },
+      {
+        "id": 91,
+        "name": "Part Time",
+        "count": 28
+      },
+      {
+        "id": 92,
+        "name": "Sessional",
+        "count": 28
+      }
+    ],
+    "location": [
+
+    ]
+  }
+}

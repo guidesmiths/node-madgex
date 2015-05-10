@@ -1,0 +1,1433 @@
+{
+  "status": "ok",
+  "result": {
+    "uriTemplate": "http:\/\/guidesmiths-web.madgexjbtest.com\/job\/{jobId}\/?trackid=22",
+    "totalResults": 132,
+    "startIndex": 0,
+    "itemsPerPage": 30,
+    "jobs": [
+      {
+        "id": 1131,
+        "title": "Inbound Sales Advisor",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Transport for London (Madgex Test Data)",
+        "recruiterID": 21,
+        "recruiterLogo": "8bc4bed9-0fc3-42b3-a3a0-920e195f8ca4",
+        "salary": "\u00a330,001 - \u00a340,000",
+        "location": "ME2 4JD, Rochester",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1131\/inbound-sales-advisor\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            "Academic Related",
+            [
+              "Professional Services",
+              [
+                "Administrative",
+                "Finance and Procurement"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1131\/inbound-sales-advisor",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1124,
+        "title": "Vice Chancellor",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Kings College London",
+        "recruiterID": 1117,
+        "recruiterLogo": "260374d2-32db-40b4-a7c7-959bf52a03f9",
+        "salary": "Competitive",
+        "location": "London (Central), London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1124\/vice-chancellor\/?trackid=22",
+          "type": "response-management",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.kcl.ac.uk\/hr\/jobs\/principal.aspx"
+        },
+        "upsells": [
+          5,
+          6,
+          7
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": true,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Vice-chancellors \/ Principals \/ Provosts",
+                "Deputy Vice-chancellors",
+                "Pro Vice-chancellors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1124\/vice-chancellor",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1123,
+        "title": "Lecturer in Computer Science",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Kings College London",
+        "recruiterID": 1117,
+        "recruiterLogo": "260374d2-32db-40b4-a7c7-959bf52a03f9",
+        "salary": "\u00a335,000 - \u00a340,000",
+        "location": "London (Central), London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1123\/lecturer-in-computer-science\/?trackid=22",
+          "type": "response-management",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.kcl.ac.uk\/hr\/jobs\/principal.aspx"
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1123\/lecturer-in-computer-science",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1122,
+        "title": "Head of Humantities",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Kings College London",
+        "recruiterID": 1117,
+        "recruiterLogo": "260374d2-32db-40b4-a7c7-959bf52a03f9",
+        "salary": "\u00a380,000 - \u00a380,001",
+        "location": "London (Central), London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1122\/head-of-humantities\/?trackid=22",
+          "type": "response-management",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.kcl.ac.uk\/hr\/jobs\/principal.aspx"
+        },
+        "upsells": [
+          5
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": true,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Heads of Department"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1122\/head-of-humantities",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1261,
+        "title": "Senior Lecturer Appointment ",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "The British University in Egypt",
+        "recruiterID": 1258,
+        "recruiterLogo": "492dc557-44f7-46c8-83f8-5ba20eaf9f2a",
+        "salary": "",
+        "location": "Egypt (EG)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1261\/senior-lecturer-appointment-\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1261\/senior-lecturer-appointment-",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1237,
+        "title": "Academic Registrar",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "London School of Economic & Political Science",
+        "recruiterID": 1236,
+        "recruiterLogo": "4a566a38-2cd6-43ad-97e0-08733cd04c13",
+        "salary": "",
+        "location": "London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1237\/academic-registrar\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+          6,
+          5
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Registrars \/ Assistant Registrars"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1237\/academic-registrar",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1235,
+        "title": "Vice-Chancellor",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "University of Warwick",
+        "recruiterID": 1234,
+        "recruiterLogo": "336b72c0-20f3-4961-90fe-ea706ff7215c",
+        "salary": "",
+        "location": "Warwick, Warwickshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1235\/vice-chancellor\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.perrettlaver.com\/candidates"
+        },
+        "upsells": [
+          5,
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Vice-chancellors \/ Principals \/ Provosts"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1235\/vice-chancellor",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1233,
+        "title": "Lecturer\/Senior Lecturer Posts in Disruptive Technologies",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "University of Greenwich",
+        "recruiterID": 1229,
+        "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+        "salary": "\u00a331,342 to \u00a345,954 plus \u00a33,437 London weighting per annum",
+        "location": "London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1233\/lecturer-senior-lecturer-posts-in-disruptive-technologies\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "https:\/\/jobs.gre.ac.uk\/Vacancy.aspx?ref=840"
+        },
+        "upsells": [
+          8,
+          5,
+          7,
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Heads of Department",
+                "Other Senior Management"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1233\/lecturer-senior-lecturer-posts-in-disruptive-technologies",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1232,
+        "title": "Subject Lead for Film and Television",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "University of Greenwich",
+        "recruiterID": 1229,
+        "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+        "salary": "\u00a347,328 to \u00a354,841 plus \u00a33,437 London weighting per annum",
+        "location": "London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1232\/subject-lead-for-film-and-television\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "https:\/\/jobs.gre.ac.uk\/Vacancy.aspx?ref=841"
+        },
+        "upsells": [
+          8,
+          5,
+          7,
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Heads of Department",
+                "Other Senior Management"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1232\/subject-lead-for-film-and-television",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1263,
+        "title": "Deputy Vice-Chancellor - Student Experience",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "University of Westminster",
+        "recruiterID": 1262,
+        "recruiterLogo": "f2cb4e60-d376-4655-b756-6a2d3502d620",
+        "salary": "Competitive salary",
+        "location": "London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1263\/deputy-vice-chancellor-student-experience\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.perrettlaver.com\/westminster"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Deputy Vice-chancellors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1263\/deputy-vice-chancellor-student-experience",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1231,
+        "title": "Deputy Head of Department, Creative Professions and Digital Arts",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "University of Greenwich",
+        "recruiterID": 1229,
+        "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+        "salary": "\u00a347,328 to \u00a354,841 plus \u00a33,437 London weighting per annum",
+        "location": "London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1231\/deputy-head-of-department-creative-professions-and-digital-arts\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "https:\/\/jobs.gre.ac.uk\/Vacancy.aspx?ref=840"
+        },
+        "upsells": [
+          8,
+          5,
+          7,
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Heads of Department",
+                "Other Senior Management"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1231\/deputy-head-of-department-creative-professions-and-digital-arts",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1297,
+        "title": "Quantity Surveyor",
+        "posted": "16 Apr 2015",
+        "description": "",
+        "recruiter": "Transport for London (Madgex Test Data)",
+        "recruiterID": 21,
+        "recruiterLogo": "8bc4bed9-0fc3-42b3-a3a0-920e195f8ca4",
+        "salary": "\u00a3180,001 - \u00a3190,000",
+        "location": "B34 7JL, Birmingham",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1297\/quantity-surveyor\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Related",
+              [
+                "Technicians"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1297\/quantity-surveyor",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1299,
+        "title": "Strategic Procurement Manager",
+        "posted": "16 Apr 2015",
+        "description": "",
+        "recruiter": "Transport for London (Madgex Test Data)",
+        "recruiterID": 21,
+        "recruiterLogo": "8bc4bed9-0fc3-42b3-a3a0-920e195f8ca4",
+        "salary": "\u00a3120,001 - \u00a3130,000",
+        "location": "CM77 8NJ, Braintree",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1299\/strategic-procurement-manager\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+          5
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": true,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Professional Services",
+              [
+                "Human Resources"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1299\/strategic-procurement-manager",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1298,
+        "title": "Trust Fundraiser",
+        "posted": "16 Apr 2015",
+        "description": "",
+        "recruiter": "Transport for London (Madgex Test Data)",
+        "recruiterID": 21,
+        "recruiterLogo": "8bc4bed9-0fc3-42b3-a3a0-920e195f8ca4",
+        "salary": "Hourly Rate",
+        "location": "SG1 6AB, Stevenage",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1298\/trust-fundraiser\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Vice-chancellors \/ Principals \/ Provosts"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1298\/trust-fundraiser",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1300,
+        "title": "Business Travel Reservations",
+        "posted": "16 Apr 2015",
+        "description": "",
+        "recruiter": "Transport for London (Madgex Test Data)",
+        "recruiterID": 21,
+        "recruiterLogo": "8bc4bed9-0fc3-42b3-a3a0-920e195f8ca4",
+        "salary": "\u00a3110,001 - \u00a3120,000",
+        "location": "S65 4DA, Rotherham",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1300\/business-travel-reservations\/?trackid=22",
+          "type": "response-management",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+          5,
+          6,
+          7
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": true,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Other Senior Management"
+              ]
+            ],
+            [
+              "Academic Posts",
+              [
+                "Postdocs",
+                "Studentships"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1300\/business-travel-reservations",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1301,
+        "title": "Business Travel Reservations",
+        "posted": "16 Apr 2015",
+        "description": "",
+        "recruiter": "Transport for London (Madgex Test Data)",
+        "recruiterID": 21,
+        "recruiterLogo": "8bc4bed9-0fc3-42b3-a3a0-920e195f8ca4",
+        "salary": "\u00a3110,001 - \u00a3120,000",
+        "location": "S65 4DA, Rotherham",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1301\/business-travel-reservations\/?trackid=22",
+          "type": "response-management",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Other Senior Management"
+              ]
+            ],
+            [
+              "Academic Posts",
+              [
+                "Postdocs",
+                "Studentships"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1301\/business-travel-reservations",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1305,
+        "title": "Tele-Sales",
+        "posted": "17 Apr 2015",
+        "description": "",
+        "recruiter": "Sky (Madgex Test Data)",
+        "recruiterID": 19,
+        "recruiterLogo": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "salary": "\u00a370,001 - \u00a380,000",
+        "location": "LE5 5TH, Leicester",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1305\/tele-sales\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Chief Operating Officers",
+                "Directors",
+                "Other Senior Management"
+              ]
+            ],
+            [
+              "Professional Services",
+              [
+                "Marketing and Communications"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1305\/tele-sales",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1307,
+        "title": "Health and Safety Officer",
+        "posted": "17 Apr 2015",
+        "description": "",
+        "recruiter": "Sky (Madgex Test Data)",
+        "recruiterID": 19,
+        "recruiterLogo": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "salary": "\u00a310,001 - \u00a320,000",
+        "location": "EH12 7UH, Edinburgh",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1307\/health-and-safety-officer\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+          5,
+          6,
+          7
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": true,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Related",
+              [
+                "Other Academic Related"
+              ]
+            ],
+            [
+              "Professional Services",
+              [
+                "Knowledge Transfer \/ Business Links",
+                "Library \/ Records \/ Information Management"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1307\/health-and-safety-officer",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1306,
+        "title": "Legal Adviser",
+        "posted": "17 Apr 2015",
+        "description": "",
+        "recruiter": "Sky (Madgex Test Data)",
+        "recruiterID": 19,
+        "recruiterLogo": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "salary": "Daily Rate",
+        "location": "TR18 2FE, Penzance",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1306\/legal-adviser\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+          5,
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": true,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Pro Vice-chancellors"
+              ]
+            ],
+            [
+              "Academic Posts",
+              [
+                "Readers \/ Senior Research Fellows"
+              ]
+            ],
+            "Academic Related",
+            [
+              "Professional Services",
+              [
+                "Administrative",
+                "Fundraising, Development and Alumni"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1306\/legal-adviser",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1310,
+        "title": "Plant Manager",
+        "posted": "20 Apr 2015",
+        "description": "",
+        "recruiter": "Marriott Hotels (Madgex Test Data)",
+        "recruiterID": 15,
+        "recruiterLogo": "d26e36da-6874-4f36-a183-5a34b1463424",
+        "salary": "\u00a3130,001 - \u00a3140,000",
+        "location": "IP28 8AT, Bury St Edmunds",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1310\/plant-manager\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Directors"
+              ]
+            ],
+            [
+              "Academic Posts",
+              [
+                "Studentships"
+              ]
+            ],
+            [
+              "Professional Services",
+              [
+                "Finance and Procurement"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1310\/plant-manager",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1311,
+        "title": "Legal Adviser",
+        "posted": "20 Apr 2015",
+        "description": "",
+        "recruiter": "Sky (Madgex Test Data)",
+        "recruiterID": 19,
+        "recruiterLogo": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "salary": "Daily Rate",
+        "location": "TR18 2FE, Penzance",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1311\/legal-adviser\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Pro Vice-chancellors"
+              ]
+            ],
+            [
+              "Academic Posts",
+              [
+                "Readers \/ Senior Research Fellows"
+              ]
+            ],
+            "Academic Related",
+            [
+              "Professional Services",
+              [
+                "Administrative",
+                "Fundraising, Development and Alumni"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1311\/legal-adviser",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1324,
+        "title": "Vehicle Technician",
+        "posted": "20 Apr 2015",
+        "description": "",
+        "recruiter": "Sky (Madgex Test Data)",
+        "recruiterID": 19,
+        "recruiterLogo": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "salary": "Daily Rate",
+        "location": "HU3 1XR, Kingston upon Hull",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1324\/vehicle-technician\/?trackid=22",
+          "type": "email-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Deans"
+              ]
+            ],
+            [
+              "Academic Posts",
+              [
+                "Lecturers \/ Assistant Professors",
+                "Postdocs"
+              ]
+            ],
+            [
+              "Professional Services",
+              [
+                "Registry"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1324\/vehicle-technician",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1325,
+        "title": "Project Manager",
+        "posted": "20 Apr 2015",
+        "description": "",
+        "recruiter": "Sky (Madgex Test Data)",
+        "recruiterID": 19,
+        "recruiterLogo": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "salary": "\u00a330,001 - \u00a340,000",
+        "location": "WS3 2QE, Walsall",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1325\/project-manager\/?trackid=22",
+          "type": "offline-applications",
+          "allowMobileExternalRedirects": true
+        },
+        "upsells": [
+
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": false,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Professional Services",
+              [
+                "Student Services"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1325\/project-manager",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1230,
+        "title": "Deputy Vice-Chancellor (Research and Enterprise)",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "University of Greenwich",
+        "recruiterID": 1229,
+        "recruiterLogo": "69beea65-72a0-4dde-b5e2-0122b9e4532c",
+        "salary": "Attractive six-figure salary",
+        "location": "London (Greater)",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1230\/deputy-vice-chancellor-research-and-enterprise-\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.odgers.com\/51759"
+        },
+        "upsells": [
+          8,
+          5,
+          7,
+          6,
+          7
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": true,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Senior Management & Heads of Department",
+              [
+                "Deputy Vice-chancellors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1230\/deputy-vice-chancellor-research-and-enterprise-",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1228,
+        "title": "Research Lecturer\/Senior Lecturer in Artificial Intelligence\/Interactive Systems",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Teesside University",
+        "recruiterID": 1215,
+        "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "salary": "\u00a329,552 - \u00a347,328",
+        "location": "Middlesbrough, North Yorkshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1228\/research-lecturer-senior-lecturer-in-artificial-intelligence-interactive-systems\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.tees.ac.uk\/sections\/jobs"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors",
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1228\/research-lecturer-senior-lecturer-in-artificial-intelligence-interactive-systems",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1227,
+        "title": "Research Lecturer\/Senior Lecturer in Criminology",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Teesside University",
+        "recruiterID": 1215,
+        "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "salary": "\u00a329,552 - \u00a347,328",
+        "location": "Middlesbrough, North Yorkshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1227\/research-lecturer-senior-lecturer-in-criminology\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.tees.ac.uk\/sections\/jobs"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors",
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1227\/research-lecturer-senior-lecturer-in-criminology",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1226,
+        "title": "Research Lecturer\/Senior Lecturer in Business and Management",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Teesside University",
+        "recruiterID": 1215,
+        "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "salary": "\u00a329,552 - \u00a347,328",
+        "location": "Middlesbrough, North Yorkshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1226\/research-lecturer-senior-lecturer-in-business-and-management\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.tees.ac.uk\/sections\/jobs"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors",
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1226\/research-lecturer-senior-lecturer-in-business-and-management",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1225,
+        "title": "Research Lecturer\/Senior Lecturer in Social Policy\/Sociology",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Teesside University",
+        "recruiterID": 1215,
+        "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "salary": "\u00a329,552 - \u00a347,328",
+        "location": "Middlesbrough, North Yorkshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1225\/research-lecturer-senior-lecturer-in-social-policy-sociology\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.tees.ac.uk\/sections\/jobs"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors",
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1225\/research-lecturer-senior-lecturer-in-social-policy-sociology",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1224,
+        "title": "Research Lecturer\/Senior Lecturer in Digital Media & Culture",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Teesside University",
+        "recruiterID": 1215,
+        "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "salary": "\u00a329,552 - \u00a347,328",
+        "location": "Middlesbrough, North Yorkshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1224\/research-lecturer-senior-lecturer-in-digital-media-and-culture\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.tees.ac.uk\/sections\/jobs"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors",
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1224\/research-lecturer-senior-lecturer-in-digital-media-and-culture",
+        "usesAltRecruiterName": false
+      },
+      {
+        "id": 1223,
+        "title": "Research Lecturer\/Senior Lecturer in Health Sciences Research (Systematic Reviewing)",
+        "posted": "21 Apr 2015",
+        "description": "",
+        "recruiter": "Teesside University",
+        "recruiterID": 1215,
+        "recruiterLogo": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "salary": "\u00a329,552 - \u00a347,328",
+        "location": "Middlesbrough, North Yorkshire",
+        "geo": [
+
+        ],
+        "jobRole": null,
+        "applyInfo": {
+          "applyUrl": "http:\/\/guidesmiths-web.madgexjbtest.com\/apply\/1223\/research-lecturer-senior-lecturer-in-health-sciences-research-systematic-reviewing-\/?trackid=22",
+          "type": "external-redirect",
+          "allowMobileExternalRedirects": true,
+          "externalApplicationUrl": "http:\/\/www.tees.ac.uk\/sections\/jobs"
+        },
+        "upsells": [
+          6
+        ],
+        "noOfVideos": 0,
+        "isPremiumJob": false,
+        "isHomePageJob": false,
+        "isDisplayLogoJob": true,
+        "isTopJob": false,
+        "categories": {
+          "function": [
+            [
+              "Academic Posts",
+              [
+                "Principal \/ Senior Lecturers \/ Associate Professors",
+                "Lecturers \/ Assistant Professors"
+              ]
+            ]
+          ],
+          "location": [
+
+          ]
+        },
+        "urlId": "1223\/research-lecturer-senior-lecturer-in-health-sciences-research-systematic-reviewing-",
+        "usesAltRecruiterName": false
+      }
+    ]
+  }
+}

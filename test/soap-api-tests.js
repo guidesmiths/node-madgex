@@ -25,26 +25,26 @@ describe('Madgex SOAP API', function() {
 
         it('should report errors', function(done) {
 
-            var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+            var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                 .post('/billing.asmx')
                 .replyWithError('Test Error');
 
             client.billingApi.getCategories(function(err, results) {
                 assert.ok(err)
-                assert.equal(err.message, 'POST http://timeshighereducation-webservice.madgexjbtest.com/billing.asmx failed. Original error was: Test Error')
+                assert.equal(err.message, 'POST http://guidesmiths-webservice.madgexjbtest.com/billing.asmx failed. Original error was: Test Error')
                 done()
             })
         })
 
         it('should report failures', function(done) {
 
-            var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+            var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                 .post('/billing.asmx')
                 .reply(400);
 
             client.billingApi.getCategories(function(err, results) {
                 assert.ok(err)
-                assert.equal(err.message, 'POST http://timeshighereducation-webservice.madgexjbtest.com/billing.asmx failed. Status code was: 400')
+                assert.equal(err.message, 'POST http://guidesmiths-webservice.madgexjbtest.com/billing.asmx failed. Status code was: 400')
                 done()
             })
         })
@@ -52,7 +52,7 @@ describe('Madgex SOAP API', function() {
         describe('GetCategories', function() {
             it('should get a list of categories', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .replyWithFile(200, __dirname + '/replies/GetCategories.many.xml');
 
@@ -69,7 +69,7 @@ describe('Madgex SOAP API', function() {
 
             it('should render single categores as a list', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .replyWithFile(200, __dirname + '/replies/GetCategories.single.xml');
 
@@ -86,7 +86,7 @@ describe('Madgex SOAP API', function() {
 
             it('should survive bad responses', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(200, 'not xml mwahahaha');
 
@@ -102,7 +102,7 @@ describe('Madgex SOAP API', function() {
 
             it('should get a list of category terms', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .replyWithFile(200, __dirname + '/replies/GetCategoryTerms.many.xml');
 
@@ -118,7 +118,7 @@ describe('Madgex SOAP API', function() {
 
             it('should render single category terms as a list', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .replyWithFile(200, __dirname + '/replies/GetCategoryTerms.single.xml')
 
@@ -136,7 +136,7 @@ describe('Madgex SOAP API', function() {
 
             it('should get a list of locations', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
@@ -155,7 +155,7 @@ describe('Madgex SOAP API', function() {
 
             it('should render single location as a list', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .replyWithFile(200, __dirname + '/replies/GetLocations.single.xml');
 
@@ -173,7 +173,7 @@ describe('Madgex SOAP API', function() {
 
             it('should add a billed job', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
@@ -258,7 +258,7 @@ describe('Madgex SOAP API', function() {
 
             it('should omit optional elements when not specified', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
@@ -287,7 +287,7 @@ describe('Madgex SOAP API', function() {
 
             it('should use xsi:nil for certain elements with minOcccurs=1 mandatory=false when not specified', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
@@ -314,7 +314,7 @@ describe('Madgex SOAP API', function() {
         describe('UpdateBilledJob', function() {
 
             it('should update a billed job', function(done) {
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
@@ -365,7 +365,7 @@ describe('Madgex SOAP API', function() {
 
             it('should add recruiter', function(done) {
 
-                var scope = nock('http://timeshighereducation-webservice.madgexjbtest.com')
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })

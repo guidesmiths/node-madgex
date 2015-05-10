@@ -1,0 +1,340 @@
+{
+  "status": "ok",
+  "result": {
+    "totalResults": 45,
+    "startIndex": 0,
+    "itemsPerPage": 30,
+    "employers": [
+      {
+        "id": 1171,
+        "title": "Anglia Ruskin University",
+        "noOfLiveJobs": 1,
+        "shortDescription": "",
+        "recruiterLogoId": "53fb405d-c4af-4b3f-83f8-94d32fbdedfe",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 7,
+        "title": "Apple (Madgex Test Data)",
+        "noOfLiveJobs": 1,
+        "shortDescription": "Are you about to graduate from college or graduate school? Did you graduate in the past year? Apple is hiring new grads.",
+        "recruiterLogoId": "3999c39f-5794-4a05-a969-19b1abe032f8",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 8,
+        "title": "Atari Group (Madgex Test Data)",
+        "noOfLiveJobs": 2,
+        "shortDescription": "Atari is one of the world's truly iconic gaming brands. Today we are transforming Atari into a 21st century digital entertainment company.",
+        "recruiterLogoId": "0d153a46-d60c-42db-8f72-153bd2365fb6",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1202,
+        "title": "Bath Spa University",
+        "noOfLiveJobs": 3,
+        "shortDescription": "",
+        "recruiterLogoId": "5fe21803-d4ce-4685-834d-b55555071cbb",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 9,
+        "title": "BBC (Madgex Test Data)",
+        "noOfLiveJobs": 1,
+        "shortDescription": "It\u2019s our goal to become the most creative organisation in the world. In order to make it a reality, we need to keep on attracting the brightest, most creative and talented people.",
+        "recruiterLogoId": "58ac51bc-a31d-48bc-b4ba-b53766d9f7f8",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1295,
+        "title": "Bournemouth University",
+        "noOfLiveJobs": 1,
+        "shortDescription": "",
+        "recruiterLogoId": "9a019be4-0723-4757-bb83-fe61aa64f082",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1180,
+        "title": "Edge Hill University",
+        "noOfLiveJobs": 4,
+        "shortDescription": "",
+        "recruiterLogoId": "f2c7218f-d2e7-4e1f-b9c4-cfb6cca57b39",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1251,
+        "title": "Edinburgh Business School",
+        "noOfLiveJobs": 3,
+        "shortDescription": "",
+        "recruiterLogoId": "0fa5974c-0b4b-496e-8672-43f394608f5c",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1249,
+        "title": "Edinburgh Napier University",
+        "noOfLiveJobs": 2,
+        "shortDescription": "",
+        "recruiterLogoId": "65d93e49-51fe-466e-82e2-6bb0336eda25",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1109,
+        "title": "Eduardo Frost Ltd",
+        "noOfLiveJobs": 0,
+        "shortDescription": "Best recruiter in town",
+        "recruiterLogoId": "6ca45d4e-88eb-43d7-b86e-3760bf0256fa",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1206,
+        "title": "Elsevier",
+        "noOfLiveJobs": 1,
+        "shortDescription": "",
+        "recruiterLogoId": "9d7aed14-20c1-4ad4-ac31-ce5b243a8527",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 11,
+        "title": "Future (Madgex Test Data)",
+        "noOfLiveJobs": 1,
+        "shortDescription": "As an international media business which produces over 100 magazines each month alongside 70 websites and 16 annual live events, we can offer a wealth of career opportunities for people with the right skills and passion to move our business forward.",
+        "recruiterLogoId": "05ccb940-5db7-48eb-afd2-4f444e9f37fe",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 12,
+        "title": "Google (Madgex Test Data)",
+        "noOfLiveJobs": 3,
+        "shortDescription": "Chances are you have a good idea of where you want to go in life. At Google, we\u2019ve designed a culture that helps you get there.",
+        "recruiterLogoId": "9ee7f0f3-6348-4604-9a56-ba03446de12c",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 13,
+        "title": "Hilton (Madgex Test Data)",
+        "noOfLiveJobs": 1,
+        "shortDescription": "'Only those who feel valued can truly add value.' This is the ethos behind every decision we make at Hilton. We are immensely proud of the culture of support and sense of belonging that we all feel when we work within The Hilton Family of Hotels.",
+        "recruiterLogoId": "3e053738-f8aa-40f9-be28-d35c4a436fa8",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 14,
+        "title": "HSBC Bank plc (Madgex Test Data)",
+        "noOfLiveJobs": 2,
+        "shortDescription": "Is a long-term career decision about waiting for the right moment to come along? Or is it about making the right move, now? Particularly in these times, we believe in making the most of every second. That's what makes us who we are today.",
+        "recruiterLogoId": "500312f7-a429-4559-b70d-d605d8a0486a",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1117,
+        "title": "Kings College London",
+        "noOfLiveJobs": 6,
+        "shortDescription": "King's is one of the world's leading research and teaching universities based in the heart of London.",
+        "recruiterLogoId": "260374d2-32db-40b4-a7c7-959bf52a03f9",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1200,
+        "title": "Liverpool Institute for Performing Arts",
+        "noOfLiveJobs": 1,
+        "shortDescription": "",
+        "recruiterLogoId": "1ee66178-1492-4a5c-a0b3-adc97eaab7a6",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1236,
+        "title": "London School of Economic & Political Science",
+        "noOfLiveJobs": 2,
+        "shortDescription": "",
+        "recruiterLogoId": "4a566a38-2cd6-43ad-97e0-08733cd04c13",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 15,
+        "title": "Marriott Hotels (Madgex Test Data)",
+        "noOfLiveJobs": 1,
+        "shortDescription": "You have already found the perfect place to pursue your professional career. Ready to be challenged? Ready to achieve and be recognised? You're on the road to success and we invite you to explore our established global company full of \"people going places",
+        "recruiterLogoId": "d26e36da-6874-4f36-a183-5a34b1463424",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1255,
+        "title": "Newman University",
+        "noOfLiveJobs": 2,
+        "shortDescription": "",
+        "recruiterLogoId": "6583fa39-0812-4142-b3c6-d8662b488790",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 16,
+        "title": "Oxfam (Madgex Test Data)",
+        "noOfLiveJobs": 8,
+        "shortDescription": "Oxfam GB employs more than 6,000 people in 80 different countries who all share the commitment to work together to end poverty and suffering.",
+        "recruiterLogoId": "f1b42b0e-f05e-4052-884c-6e2d33ff58dc",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1253,
+        "title": "Queen Mary, University of London",
+        "noOfLiveJobs": 1,
+        "shortDescription": "",
+        "recruiterLogoId": "93988ae0-66ee-4c9d-a852-bff2fd53eeeb",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1208,
+        "title": "RMIT University",
+        "noOfLiveJobs": 4,
+        "shortDescription": "",
+        "recruiterLogoId": "6d6dba39-945a-478a-9347-880fc9eaa8c0",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 18,
+        "title": "Sainsbury's (Madgex Test Data)",
+        "noOfLiveJobs": 5,
+        "shortDescription": "We're looking for talented people to support our supermarkets, convenience stores and depots around the country. With everything from HR and Finance to Marketing and Buying under one roof, whatever your area of expertise, you\u2019ll find the right role for yo",
+        "recruiterLogoId": "310ceb04-3dda-4e89-a9ca-0bc6f0e9dba9",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 19,
+        "title": "Sky (Madgex Test Data)",
+        "noOfLiveJobs": 12,
+        "shortDescription": "At Sky, our job is to entertain people - and already more than 17 million viewers in 8 million households across the UK tune into our world-beating entertainment.",
+        "recruiterLogoId": "d3031aac-8566-4227-ae58-c72811cc20e6",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 20,
+        "title": "Smile (Madgex Test Data)",
+        "noOfLiveJobs": 3,
+        "shortDescription": "As smile continues to grow, we're constantly on the look-out for the right kind of people to join our team.",
+        "recruiterLogoId": "6ca45d4e-88eb-43d7-b86e-3760bf0256fa",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1187,
+        "title": "SOAS University of London",
+        "noOfLiveJobs": 1,
+        "shortDescription": "",
+        "recruiterLogoId": "59874867-677b-4a1b-9c5c-fe33c5fd9387",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1215,
+        "title": "Teesside University",
+        "noOfLiveJobs": 13,
+        "shortDescription": "",
+        "recruiterLogoId": "cb7c6707-bb9e-464b-b168-e166d4f1e3d5",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1133,
+        "title": "TES Globetrotters",
+        "noOfLiveJobs": 0,
+        "shortDescription": "",
+        "recruiterLogoId": "9ee7f0f3-6348-4604-9a56-ba03446de12c",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      },
+      {
+        "id": 1258,
+        "title": "The British University in Egypt",
+        "noOfLiveJobs": 3,
+        "shortDescription": "",
+        "recruiterLogoId": "492dc557-44f7-46c8-83f8-5ba20eaf9f2a",
+        "employerTypes": [
+          "Direct Employer"
+        ],
+        "noOfVideos": 0
+      }
+    ]
+  }
+}
