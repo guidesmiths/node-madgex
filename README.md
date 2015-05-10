@@ -173,3 +173,14 @@ you'll receive
 
 #### Error handling
 In the event of an HTTP error, the err object passed to your callback will be blessed with a 'statusCode' property. In the event ofa  SOAP Fault, the err object will additionally be blessed with 'faultCode' and 'faultString' properties.
+
+#### Adding more SOAP API methods
+Adding more API methods is easy
+1. Fork and clone node-madgex
+2. Generate a real request and response using your tool of choice ([SoapUI](http://www.soapui.org/), curl, etc)
+3. Convert the request to a handlbars template and save it in lib/soap-templates/MethodName.hbs, 
+4. Save the response in test/replies/soap/MethodName.ok.xml
+5. Update lib/soap-api-service-description.json
+6. Add one or more test cases
+7. Submit a PR
+
