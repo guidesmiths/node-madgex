@@ -54,7 +54,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategories.many.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategories.many.xml');
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ifError(err)
@@ -71,7 +71,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategories.single.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategories.single.xml');
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ifError(err)
@@ -104,7 +104,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategoryTerms.many.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategoryTerms.many.xml');
 
                 client.billingApi.getCategoryTerms({categoryId: 100}, function(err, results) {
                     assert.ifError(err)
@@ -120,7 +120,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetCategoryTerms.single.xml')
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategoryTerms.single.xml')
 
                 client.billingApi.getCategoryTerms({categoryId: 100}, function(err, results) {
                     assert.ifError(err)
@@ -141,7 +141,7 @@ describe('Madgex SOAP API', function() {
                     .reply(function(uri, requestBody) {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
                         assert.equal($('job\\:searchPrefix').text(), 'Lon')
-                        return fs.createReadStream(__dirname + '/replies/GetLocations.many.xml')
+                        return fs.createReadStream(__dirname + '/replies/soap/GetLocations.many.xml')
                     });
 
                 client.billingApi.getLocations({prefix: 'Lon'}, function(err, results) {
@@ -157,7 +157,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/GetLocations.single.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetLocations.single.xml');
 
                 client.billingApi.getLocations({prefix: 'Longney'}, function(err, results) {
                     assert.ifError(err)
@@ -209,7 +209,7 @@ describe('Madgex SOAP API', function() {
                         assert.equal($('job\\:liProductID').text(), 'product-id')
                         assert.equal($('job\\:liPriceSoldAt').text(), '100')
                         assert.equal($('job\\:isBackFill').text(), 'true')
-                        return fs.createReadStream(__dirname + '/replies/AddBilledJob.ok.xml')
+                        return fs.createReadStream(__dirname + '/replies/soap/AddBilledJob.ok.xml')
                     })
 
                 client.billingApi.addBilledJob({
@@ -272,7 +272,7 @@ describe('Madgex SOAP API', function() {
                         assert.equal($('job\\:jobCategorization').length, 1)
                         assert.equal($('job\\:jobCategorization job\\:WSSelectedTerms').length, 0)
                         assert.equal($('job\\:jobUpsells').length, 0)
-                        return fs.createReadStream(__dirname + '/replies/AddBilledJob.ok.xml')
+                        return fs.createReadStream(__dirname + '/replies/soap/AddBilledJob.ok.xml')
                     })
 
                 client.billingApi.addBilledJob({
@@ -297,7 +297,7 @@ describe('Madgex SOAP API', function() {
                         assert.equal($('job\\:liPriceSoldAt').attr('xsi:nil'), 'true')
                         assert.equal($('job\\:isBackFill').length, 1)
                         assert.equal($('job\\:isBackFill').attr('xsi:nil'), 'true')
-                        return fs.createReadStream(__dirname + '/replies/AddBilledJob.ok.xml')
+                        return fs.createReadStream(__dirname + '/replies/soap/AddBilledJob.ok.xml')
                     })
 
                 client.billingApi.addBilledJob({
@@ -321,7 +321,7 @@ describe('Madgex SOAP API', function() {
                         assert.equal($('job\\:sRecruiterBillingID').text(), 'rec-1')
                         assert.equal($('job\\:sEmployerBillingID').text(), 'emp-1')
                         assert.equal($('job\\:sJobID').text(), 'job-1')
-                        return fs.createReadStream(__dirname + '/replies/UpdateBilledJob.ok.xml')
+                        return fs.createReadStream(__dirname + '/replies/soap/UpdateBilledJob.ok.xml')
                     })
 
                 client.billingApi.updateBilledJob({
@@ -398,7 +398,7 @@ describe('Madgex SOAP API', function() {
                         assert.equal($('job\\:AccountManager job\\:LastName').text(), 'manager-ln')
                         assert.equal($('job\\:CanAccessCvDatabase').text(), 'true')
 
-                        return fs.createReadStream(__dirname + '/replies/AddRecruiterV2.ok.xml')
+                        return fs.createReadStream(__dirname + '/replies/soap/AddRecruiterV2.ok.xml')
                     })
 
                 client.billingApi.addRecruiterV2({
