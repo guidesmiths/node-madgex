@@ -22,7 +22,7 @@ describe('Madgex SOAP API', function() {
 
             var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                 .post('/billing.asmx')
-                .replyWithError('Test Error');
+                .replyWithError('Test Error')
 
             client.billingApi.getCategories(function(err, results) {
                 assert.ok(err)
@@ -31,15 +31,31 @@ describe('Madgex SOAP API', function() {
             })
         })
 
-        it('should report failures', function(done) {
+        it('should report HTTP failures', function(done) {
 
             var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                 .post('/billing.asmx')
-                .reply(400);
+                .replyWithFile(503)
+
+            client.billingApi.getCategories(function(err, results) {
+                assert.ok(err)
+                assert.equal(err.message, 'POST http://guidesmiths-webservice.madgexjbtest.com/billing.asmx failed. Status code was: 503')
+                done()
+            })
+        })
+
+        it.only('should report SOAP failures', function(done) {
+
+            var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
+                .post('/billing.asmx')
+                .replyWithFile(400, __dirname + '/replies/soap/SoapFault.xml')
 
             client.billingApi.getCategories(function(err, results) {
                 assert.ok(err)
                 assert.equal(err.message, 'POST http://guidesmiths-webservice.madgexjbtest.com/billing.asmx failed. Status code was: 400')
+                assert.equal(err.statusCode, 400)
+                assert.equal(err.faultCode, 'soap:Server')
+                assert.ok(/System.Web.Services.Protocols.SoapException: Server was unable to process request/.test(err.faultString))
                 done()
             })
         })
@@ -49,7 +65,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/soap/GetCategories.many.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategories.many.xml')
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ifError(err)
@@ -66,7 +82,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/soap/GetCategories.single.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategories.single.xml')
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ifError(err)
@@ -83,7 +99,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .reply(200, 'not xml mwahahaha');
+                    .reply(200, 'not xml mwahahaha')
 
                 client.billingApi.getCategories(function(err, results) {
                     assert.ok(err)
@@ -99,7 +115,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/soap/GetCategoryTerms.many.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetCategoryTerms.many.xml')
 
                 client.billingApi.getCategoryTerms({categoryId: 100}, function(err, results) {
                     assert.ifError(err)
@@ -137,7 +153,7 @@ describe('Madgex SOAP API', function() {
                         var $ = cheerio.load(requestBody, { xmlMode: true })
                         assert.equal($('job\\:searchPrefix').text(), 'Lon')
                         return fs.createReadStream(__dirname + '/replies/soap/GetLocations.many.xml')
-                    });
+                    })
 
                 client.billingApi.getLocations({prefix: 'Lon'}, function(err, results) {
                     assert.ifError(err)
@@ -152,7 +168,7 @@ describe('Madgex SOAP API', function() {
 
                 var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                     .post('/billing.asmx')
-                    .replyWithFile(200, __dirname + '/replies/soap/GetLocations.single.xml');
+                    .replyWithFile(200, __dirname + '/replies/soap/GetLocations.single.xml')
 
                 client.billingApi.getLocations({prefix: 'Longney'}, function(err, results) {
                     assert.ifError(err)

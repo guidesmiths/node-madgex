@@ -184,3 +184,6 @@ you'll receive
 ]
 
 ```
+
+#### Error handling
+In the event of an HTTP error, the err object passed to your callback will be blessed with a 'statusCode' property. In the event ofa  SOAP Fault, the err object will additionally be blessed with 'faultCode' and 'faultString' properties.

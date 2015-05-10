@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> JobBoard.WebService.JobBoardException: An unexpected error occurred. ---> JobBoard.WebService.JobBoardException: The mandatory category:Location - ID:101 has no terms supplied
+   at JobBoard.WebService.JobPostingImpl.ValidateCategories(WSSelectedTerms[] jobCategorization, ResolvedLocationIds resolvedLocationIds)
+   at JobBoard.WebService.JobPostingImpl.AssignJobProperties(Guid UserID, Guid uiSecurityToken, ActionType actionType, Job job, String sJobID, String sStartDateTime, String sEndDateTime, String sApplicationMethod, String sApplicationEmail, String sExternalApplicationURL, WSJobPropertyValue[] jobProperties, WSSelectedTerms[] jobCategorization, DateTime maxAllowedEndDate, Int32 productDefinitionId, Nullable`1 isBackFill, Nullable`1 priceSoldAt)
+   at JobBoard.WebService.JobPostingImpl.UpdateBilledJob(String sRecruiterBillingID, String sEmployerBillingID, String sJobID, String sEndDateTime, String sApplicationMethod, String sApplicationEmail, String sExternalApplicationURL, WSJobPropertyValue[] jobProperties, WSSelectedTerms[] jobCategorization, Nullable`1 isBackFill)
+   at JobBoard.WebService.Billing.UpdateBilledJob(String sRecruiterBillingID, String sEmployerBillingID, String sJobID, String sEndDateTime, String sApplicationMethod, String sApplicationEmail, String sExternalApplicationURL, WSJobPropertyValue[] jobProperties, WSSelectedTerms[] jobCategorization, Nullable`1 isBackFill)
+   --- End of inner exception stack trace ---
+   at JobBoard.WebService.Billing.UpdateBilledJob(String sRecruiterBillingID, String sEmployerBillingID, String sJobID, String sEndDateTime, String sApplicationMethod, String sApplicationEmail, String sExternalApplicationURL, WSJobPropertyValue[] jobProperties, WSSelectedTerms[] jobCategorization, Nullable`1 isBackFill)
+   --- End of inner exception stack trace ---</faultstring>
+         <detail/>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
