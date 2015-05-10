@@ -1,4 +1,4 @@
-﻿# node-madgex
+# node-madgex
 A node.js client for [Madgex](http://madgex.com) web services.
 
 ## About
@@ -38,7 +38,7 @@ client.restApi.jobinfo({ jobid: 1257 }, function(err, data) {
 
 API methods usually accept a params hash and a completion callback with (err, data, result) signature;
 
-###promises
+### Promises
 As an alternative to the completion callback you can use promises as well. Api methods return with a promise
 that resolves after the completion callback (if one is present).
 
@@ -52,7 +52,7 @@ client.jobinfo({ jobid: 1257 })
       });
 ```
 
-####chain'em
+#### Chain'em
 
 Promised values are easy to compose:
 ```javascript
@@ -63,41 +63,26 @@ client.jobinfo
       .fail(function(err) { /*dome something with the error */ });
 ```
 
-####or not!
-Callbacks can also be chained ...
-```javascript
-client.jobinfo.search({}, function(err, data) {
-    if (err) { /* signal error*/ return; }
-    client.jobinfo({}, function(err, data) {
-        if (err) { /* signal error*/ return; }
-        //do something with the data
-    });
-})
-```
-
-###service description
+### Service Description
 The RESTful client API is dynamically built by code from the service description config file.
 Extend this to add new functions to the API. (/lib/rest-api-service-description.json)
 
-# API documentation
+### REST API documentation
 
-##jobinfo(params, done)
+#### jobinfo(params, done)
 Displays information about a job
 
-####params
+##### params
 a hash with the following fields
 
 field | type,info
 --- | ---
 jobid | integer, required
 
-####done
-completion callback with (err, data, result) signature
-
-##jobinfo.search(params, done)
+#### jobinfo.search(params, done)
 Searches in the job database
 
-####params
+##### params
 field | type,info
 --- | ---
 keywords | free text with boolean expressions allowed, optional
@@ -107,29 +92,28 @@ dateTi | ISO format date
 ...and much more. refer to the Madgex REST documentation for full set of params.
 
 
-##jobinfo.search.full(params, done)
+#### jobinfo.search.full(params, done)
 Same as search but returns full dataset
 
-##jobinfo.search.facets(params, done)
+##### jobinfo.search.facets(params, done)
 Return search refiners for a search result. Params are same as in search()
 
-##employer(params, done)
+#### employer(params, done)
 Displays information about am employer
 
-####params
+##### params
 a hash with the following fields
 
 field | type,info
 --- | ---
 id | integer, required
 
-##employer.search(params, done)
+#### employer.search(params, done)
 Searches in the employer database
 
+#### myjobs.add(params, done)
 
-##myjobs.add(params, done)
-
-##myjobs.delete(params, done)
+#### myjobs.delete(params, done)
 
 ## SOAP Billing API Usage
 ```javascript
