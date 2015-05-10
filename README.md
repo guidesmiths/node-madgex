@@ -95,7 +95,7 @@ dateTi | ISO format date
 #### jobinfo.search.full(params, done)
 Same as search but returns full dataset
 
-##### jobinfo.search.facets(params, done)
+#### jobinfo.search.facets(params, done)
 Return search refiners for a search result. Params are same as in search()
 
 #### employer(params, done)
@@ -123,6 +123,7 @@ var client = madgex.createClient('yoursitename',  { key: 'yourkey', secret: 'you
 client.soapApi.billingApi.getCategories(function(err, data) {
     console.log(data)
 }
+```
 
 
 ## SOAP API Documentation
