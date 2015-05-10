@@ -176,6 +176,7 @@ In the event of an HTTP error, the err object passed to your callback will be bl
 
 #### Adding more SOAP API methods
 Adding more API methods is easy
+
 1. Fork and clone node-madgex
 2. Generate a real request and response using your tool of choice ([SoapUI](http://www.soapui.org/), curl, etc)
 3. Convert the request to a handlbars template and save it in lib/soap-templates/MethodName.hbs, 
