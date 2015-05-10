@@ -1,17 +1,41 @@
 ﻿# node-madgex
-Friendly node.js client for the Madgex online service
+A node.js client for [Madgex](http://madgex.com) web services.
 
-### usage
+## About
+Madgex's web services are split between RESTful and SOAP APIs. This module currently supports only a small subset of the APIs, but we would be delighted to receive pull requests for the methods that are missing.
+
+The current set of supported web services is
+
+### REST API
+
+1. getinfo
+1. employer
+1. myjobs
+
+### Billing API
+
+1. AddBilledJob
+1. AddRecruiterV2
+1. GetCategories
+1. GetCategoryTerms
+1. GetLocations
+1. UpdateBilledJob
+1. UpdateRecruiterWithBillingID
+
+
+## REST API Documententation
+
+### Usage
 
 ```javascript
-    var madgex = require('node-madgex');
-    var client = madgex.createClient("yoursitename",  { key: "yourkey", secret: "yoursecret" }).restApi;
+var madgex = require('node-madgex')
+var client = madgex.createClient('http://yoursite-webservice.madgexjbtest.com',  { key: 'yourkey', secret: 'yoursecret' })
 
-    client.jobinfo({ jobid: 1257 }, function (err, data) {
-        console.log(data);
-    });
-
+client.restApi.jobinfo({ jobid: 1257 }, function(err, data) {
+    console.log(data);
+})
 ```
+
 API methods usually accept a params hash and a completion callback with (err, data, result) signature;
 
 ###promises
@@ -19,47 +43,40 @@ As an alternative to the completion callback you can use promises as well. Api m
 that resolves after the completion callback (if one is present).
 
 ```javascript
-    client.jobinfo({ jobid: 1257 })
-          .then(function(data) {
-              //handle data
-          })
-          .fail(function(err) {
-              //dome something with the error
-          });
-
+client.jobinfo({ jobid: 1257 })
+      .then(function(data) {
+          //handle data
+      })
+      .fail(function(err) {
+          //dome something with the error
+      });
 ```
 
 ####chain'em
 
+Promised values are easy to compose:
 ```javascript
-promised values are easy to compose:
-
-    client.jobinfo
-          .search({})
-          .then(function(jobs) { return client.jobinfo({jobid: jobs[0].id }) })
-          .then(function(jobdetails) { /*handle data*/ })
-          .fail(function(err) { /*dome something with the error */ });
+client.jobinfo
+      .search({})
+      .then(function(jobs) { return client.jobinfo({jobid: jobs[0].id }) })
+      .then(function(jobdetails) { /*handle data*/ })
+      .fail(function(err) { /*dome something with the error */ });
 ```
 
 ####or not!
 Callbacks can also be chained ...
 ```javascript
-    client.jobinfo.search({}, function(err, data) {
+client.jobinfo.search({}, function(err, data) {
+    if (err) { /* signal error*/ return; }
+    client.jobinfo({}, function(err, data) {
         if (err) { /* signal error*/ return; }
-        client.jobinfo({}, function(err, data) {
-            if (err) { /* signal error*/ return; }
-            //do something with the data
-        });
-    })
+        //do something with the data
+    });
+})
 ```
 
-
-
-###beware
-the structure of the API tree will probably change
-
 ###service description
-The client API is dynamically built by code from the service description config file.
+The RESTful client API is dynamically built by code from the service description config file.
 Extend this to add new functions to the API. (/lib/rest-api-service-description.json)
 
 # API documentation
@@ -87,7 +104,7 @@ keywords | free text with boolean expressions allowed, optional
 dataFrom | ISO format date
 dateTi | ISO format date
 
-...and much more. refer to the Magic REST documentation for full set of params.
+...and much more. refer to the Madgex REST documentation for full set of params.
 
 
 ##jobinfo.search.full(params, done)
@@ -95,8 +112,6 @@ Same as search but returns full dataset
 
 ##jobinfo.search.facets(params, done)
 Return search refiners for a search result. Params are same as in search()
-
-
 
 ##employer(params, done)
 Displays information about am employer
@@ -116,4 +131,56 @@ Searches in the employer database
 
 ##myjobs.delete(params, done)
 
+## SOAP Billing API Usage
+```javascript
+var madgex = require('node-madgex')
+var client = madgex.createClient('yoursitename',  { key: 'yourkey', secret: 'yoursecret' })
 
+client.soapApi.billingApi.getCategories(function(err, data) {
+    console.log(data)
+}
+
+
+## SOAP API Documentation
+Madgex provide multiple SOAP APIs. Currently only a subset of the Billing API is supported.
+
+### Usage
+```javascript
+var madgex = require('node-madgex')
+var client = madgex.createClient('http://yoursite-webservice.madgexjbtest.com',  { key: 'yourkey', secret: 'yoursecret' })
+
+client.soapApi.billingApi.getCategoryTerms({ categoryId: 105 }, function(err, data) {
+    console.log(data);
+})
+```
+Each billingApi method takes an optional parameters object and typical callback. You can determine the available parameters names by inspecting the equivalent methods handlebars template (see ./lib/soap-templates/*.hbs). Working out the parameters to pass still requires a degree of ~~clairvoyance~~ experience as the Madgex documentation is incomplete, the WSDL loose and the errors messages misleading. The billingApi also lacks the ability to retrieve jobs and recruiters making it impossible to discover the API by quering existing data, and to verify that creates / updates worked as expected. You wouldn't want things to be easy now would you?
+
+On the plus side responses stripped of their SOAPiness and converted to camelCased json. Integers, floats and booleans are parsed, so instead of
+
+```xml
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetCategoriesResponse xmlns="http://jobboard.webservice.madgex.co.uk">
+            <GetCategoriesResult>
+                <WSCategory>
+                    <Mandatory>false</Mandatory>
+                    <MultiSelect>true</MultiSelect>
+                    <ID>105</ID>
+                    <Name>Hours</Name>
+                </WSCategory>
+            </GetCategoriesResult>
+        </GetCategoriesResponse>
+    </soap:Body>
+</soap:Envelope>
+```
+
+you'll receive
+```json
+[
+    "mandatory": false,
+    "multiSelect": true,
+    "id": 105
+    "name": "hours"
+]
+
+```
