@@ -2,7 +2,7 @@
 A node.js client for [Madgex](http://madgex.com) web services.
 
 ## About
-Madgex's web services are split between RESTful and SOAP APIs. This module currently supports only a small subset of the APIs, but we would be delighted to receive pull requests for the methods that are missing.
+Madgex's web services are split between RESTful and SOAP APIs. This module currently supports only a subset of the APIs, but we would be delighted to receive pull requests for the methods that are missing.
 
 The current set of supported web services is
 
@@ -23,7 +23,7 @@ The current set of supported web services is
 1. UpdateRecruiterWithBillingID
 
 
-## REST API Documententation
+## The REST API
 
 ### Usage
 
@@ -67,7 +67,7 @@ client.jobinfo
 The RESTful client API is dynamically built by code from the service description config file.
 Extend this to add new functions to the API. (/lib/rest-api-service-description.json)
 
-### REST API documentation
+### Service Methods
 
 #### jobinfo(params, done)
 Displays information about a job
@@ -115,19 +115,7 @@ Searches in the employer database
 
 #### myjobs.delete(params, done)
 
-## SOAP Billing API Usage
-```javascript
-var madgex = require('node-madgex')
-var client = madgex.createClient('yoursitename',  { key: 'yourkey', secret: 'yoursecret' })
-
-client.soapApi.billingApi.getCategories(function(err, data) {
-    console.log(data)
-}
-```
-
-
-## SOAP API Documentation
-Madgex provide multiple SOAP APIs. Currently only a subset of the Billing API is supported.
+## The SOAP API
 
 ### Usage
 ```javascript
