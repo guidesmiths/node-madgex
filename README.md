@@ -1,6 +1,6 @@
+# node-madgex
 [![Build Status](https://travis-ci.org/guidesmiths/node-madgex.svg?branch=master)](https://travis-ci.org/guidesmiths/node-madgex)
 
-# node-madgex
 A node.js client for [Madgex](http://madgex.com) web services.
 
 ## About
