@@ -126,7 +126,7 @@ client.soapApi.billingApi.getCategoryTerms({ categoryId: 105 }, function(err, da
     console.log(data);
 })
 ```
-Each billingApi method takes an optional parameters object and typical callback. You can determine the available parameters names by inspecting the equivalent methods handlebars template (see ./lib/soap-templates/*.hbs). Working out the parameters to pass still requires a degree of ~~clairvoyance~~ experience as the Madgex documentation is incomplete, the WSDL loose and the errors messages misleading. The billingApi also lacks the ability to retrieve jobs and recruiters making it impossible to discover the API by quering existing data, and to verify that creates / updates worked as expected. You wouldn't want things to be easy now would you?
+Each billingApi method takes an optional parameters object and typical callback. You can determine the available parameters names by inspecting the equivalent methods handlebars template (see ./lib/soap-templates/*.hbs). Working out the parameters to pass still requires a degree of experience however.
 
 On the plus side responses stripped of their SOAPiness and converted to camelCased json. Integers, floats and booleans are parsed, so instead of
 
