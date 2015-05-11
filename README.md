@@ -128,9 +128,9 @@ client.soapApi.billingApi.getCategoryTerms({ categoryId: 105 }, function(err, da
     console.log(data);
 })
 ```
-Each billingApi method takes an optional parameters object and typical callback. You can determine the available parameters names by inspecting the equivalent methods handlebars template (see ./lib/soap-templates/*.hbs). Working out the parameters to pass still requires a degree of experience however.
+Each billingApi method takes an optional parameters object and typical callback. You can determine the available parameters names by inspecting the equivalent methods handlebars template (see ./lib/soap-templates/*.hbs). These are camel cased equivalents to the elements specified in the Madgex Billing API documentation. Working out which parameters are required and what their values should be requires a degree of experience.
 
-On the plus side responses stripped of their SOAPiness and converted to camelCased json. Integers, floats and booleans are parsed, so instead of
+Responses stripped of their SOAPiness and converted to camelCased json. Integers, floats and booleans are parsed, so instead of
 
 ```xml
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
