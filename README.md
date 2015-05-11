@@ -86,8 +86,8 @@ Searches in the job database
 field | type,info
 --- | ---
 keywords | free text with boolean expressions allowed, optional
-dataFrom | ISO format date
-dateTi | ISO format date
+dateFrom | ISO format date
+dateTo | ISO format date
 
 ...and much more. refer to the Madgex REST documentation for full set of params.
 
