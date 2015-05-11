@@ -35,7 +35,7 @@ describe('Madgex SOAP API', function() {
 
             var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                 .post('/billing.asmx')
-                .replyWithFile(503)
+                .reply(503)
 
             client.billingApi.getCategories(function(err, results) {
                 assert.ok(err)
@@ -44,7 +44,7 @@ describe('Madgex SOAP API', function() {
             })
         })
 
-        it.only('should report SOAP failures', function(done) {
+        it('should report SOAP failures', function(done) {
 
             var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
                 .post('/billing.asmx')
