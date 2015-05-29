@@ -456,6 +456,91 @@ describe('Madgex SOAP API', function() {
                 })
             })
         })
+
+        describe('UpdateRecruiterWithBillingID', function() {
+
+            it('should update recruiter', function(done) {
+
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
+                    .post('/billing.asmx')
+                    .reply(function(uri, requestBody) {
+                        var $ = cheerio.load(requestBody, { xmlMode: true })
+                        assert.equal($('job\\:RecruiterName').text(), 'recruiter-name')
+                        assert.equal($('job\\:CustomerBillingID').text(), 'cust-billing-id')
+                        assert.equal($('job\\:ContactFirstName').text(), 'contact-fn')
+                        assert.equal($('job\\:ContactLastName').text(), 'contact-ln-1')
+                        assert.equal($('job\\:ContactLastName2').text(), 'contact-ln-2')
+                        assert.equal($('job\\:Address1').text(), 'address-1')
+                        assert.equal($('job\\:Address2').text(), 'address-2')
+                        assert.equal($('job\\:Address3').text(), 'address-3')
+                        assert.equal($('job\\:TownCity').text(), 'town')
+                        assert.equal($('job\\:CountyState').text(), 'county')
+                        assert.equal($('job\\:ZipPostCode').text(), 'zip')
+                        assert.equal($('job\\:Country').text(), 'country')
+                        assert.equal($('job\\:Telephone').text(), 'phone')
+                        assert.equal($('job\\:ContactEmail').text(), 'contact@example.com')
+                        assert.equal($('job\\:RecruiterTypeID').text(), 1)
+                        assert.equal($('job\\:Image job\\:AssetID').text(), 'image-asset-id')
+                        assert.equal($('job\\:Image job\\:Base64BlobString').text(), 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4z8BQDwAEgAF/posBPQAAAABJRU5ErkJggg==')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:JobTitleTextCss').text(), '#000')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:JobHeadingsTextCss').text(), '#111')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:ButtonBackgroundCss').text(), '#222')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:ButtonTextCss').text(), '#333')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:HyperLinkCss').text(), '#444')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:Banner job\\:AssetID').text(), 'banner-asset-id')
+                        assert.equal($('job\\:EnhancedJobHtml job\\:Banner job\\:Base64BlobString').text(), 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4z8BQDwAEgAF/posBPQAAAABJRU5ErkJggg==')
+                        assert.equal($('job\\:AccountManager job\\:EmailAddress').text(), 'manager@example.com')
+                        assert.equal($('job\\:AccountManager job\\:FirstName').text(), 'manager-fn')
+                        assert.equal($('job\\:AccountManager job\\:LastName').text(), 'manager-ln')
+                        assert.equal($('job\\:CanAccessCvDatabase').text(), 'true')
+
+                        return fs.createReadStream(__dirname + '/replies/soap/UpdateRecruiterWithBillingID.ok.xml')
+                    })
+
+                client.billingApi.updateRecruiterWithBillingId({
+                    recruiterName: 'recruiter-name',
+                    customerBillingID: 'cust-billing-id',
+                    contactFirstName: 'contact-fn',
+                    contactLastName: 'contact-ln-1',
+                    contactLastName2: 'contact-ln-2',
+                    address1: 'address-1',
+                    address2: 'address-2',
+                    address3: 'address-3',
+                    townCity: 'town',
+                    countyState: 'county',
+                    zipPostCode: 'zip',
+                    country: 'country',
+                    telephone: 'phone',
+                    contactEmail: 'contact@example.com',
+                    recruiterTypeID: 1,
+                    image: {
+                        assetId: 'image-asset-id',
+                        base64BlobString: 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4z8BQDwAEgAF/posBPQAAAABJRU5ErkJggg=='
+                    },
+                    enhancedJobHtml: {
+                        jobTitleTextCss: '#000',
+                        jobHeadingsTextCss: '#111',
+                        buttonBackgroundCss: '#222',
+                        buttonTextCss: '#333',
+                        hyperLinkCss: '#444',
+                        banner: {
+                            assetId: 'banner-asset-id',
+                            base64BlobString: 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4z8BQDwAEgAF/posBPQAAAABJRU5ErkJggg=='
+                        }
+                    },
+                    accountManager: {
+                        emailAddress: 'manager@example.com',
+                        firstName: 'manager-fn',
+                        lastName: 'manager-ln',
+                    },
+                    canAccessCvDatabase: true
+                }, function(err, result) {
+                    assert.ifError(err)
+                    assert.equal(result, 1339)
+                    done()
+                })
+            })
+        })
     })
 })
 
