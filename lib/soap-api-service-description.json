@@ -24,7 +24,7 @@
                 "result": "/soap:Envelope/soap:Body/addRecruiterV2Response/addRecruiterV2Result"
             },
             "UpdateRecruiterWithBillingID": {
-                "result": "/soap:Envelope/soap:Body/updateRecruiterWithBillingIdResponse/updateRecruiterWithBillingIdResult"
+                "result": "/soap:Envelope/soap:Body/updateRecruiterWithBillingIDResponse/updateRecruiterWithBillingIDResult"
             }
         }
     }
