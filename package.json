@@ -1,6 +1,6 @@
 {
   "name": "node-madgex",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "node-madgex",
   "main": "index.js",
   "scripts": {
