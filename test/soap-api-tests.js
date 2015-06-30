@@ -457,6 +457,47 @@ describe('Madgex SOAP API', function() {
             })
         })
 
+        describe('AddPrePaidCredits', function() {
+
+            it('should credits to a recruiter', function(done) {
+
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
+                    .post('/billing.asmx')
+                    .reply(function(uri, requestBody) {
+                        var $ = cheerio.load(requestBody, { xmlMode: true })
+                        assert.equal($('job\\:sRecruiterBillingID').text(), 'recruiter-billing-id')
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:ProductID').text(), 1)
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:UnlimitedUsage').text(), 'true')
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:ExternalOrderRef').text(), 'ref1234')
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:UseBy').text(), '2034-04-25T12:43:08.41')
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:Quantity').text(), 1000)
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:Price').text(), 100)
+                        assert.equal($('job\\:Credits job\\:WSPrePaidCreditGrant job\\:BillingTypeID').text(), 1)
+
+                        return fs.createReadStream(__dirname + '/replies/soap/AddPrePaidCredits.ok.xml')
+                    })
+
+                client.billingApi.addPrePaidCredits({
+                    recruiterBillingId: "recruiter-billing-id",
+                    credits: [ {
+                        expiryDate: '2034-04-25T12:43:08.41',
+                        orderReference: 'ref1234',
+                        isUnlimited: true,
+                        numCredits: 1000,
+                        price: 100,
+                        productId: 1,
+                        billingTypeId: 1
+                    }]
+                }, function(err, result) {
+                    assert.ifError(err)
+                    assert.equal(result.wSPrePaidCreditUsage.productID, 27)
+                    assert.equal(result.wSPrePaidCreditUsage.quantityUsed, 0)
+                    assert.equal(result.wSPrePaidCreditUsage.usage, '')
+                    done()
+                })
+            })
+        })
+
         describe('UpdateRecruiterWithBillingID', function() {
 
             it('should update recruiter', function(done) {
