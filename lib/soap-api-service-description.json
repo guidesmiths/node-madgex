@@ -23,6 +23,9 @@
             "AddRecruiterV2": {
                 "result": "/soap:Envelope/soap:Body/addRecruiterV2Response/addRecruiterV2Result"
             },
+            "AddPrePaidCredits": {
+                "result": "/soap:Envelope/soap:Body/addPrePaidCreditsResponse/addPrePaidCreditsResult"
+            },
             "UpdateRecruiterWithBillingID": {
                 "result": "/soap:Envelope/soap:Body/updateRecruiterWithBillingIDResponse/updateRecruiterWithBillingIDResult"
             }

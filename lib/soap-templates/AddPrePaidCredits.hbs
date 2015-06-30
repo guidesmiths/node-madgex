@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:job="http://jobboard.webservice.madgex.co.uk">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <job:AddPrePaidCredits>
+         <job:data>
+            <job:sRecruiterBillingID>{{recruiterBillingId}}</job:sRecruiterBillingID>
+            <job:Credits>
+               {{#each credits}}
+                  <job:WSPrePaidCreditGrant>
+                     <job:ProductID>{{productId}}</job:ProductID>
+                     <job:UnlimitedUsage>{{isUnlimited}}</job:UnlimitedUsage>
+                     {{#if orderReference}}<job:ExternalOrderRef>{{orderReference}}</job:ExternalOrderRef>{{/if}}
+                     {{#if expiryDate}}<job:UseBy>{{expiryDate}}</job:UseBy>{{/if}}
+                     {{#if numCredits}}<job:Quantity>{{numCredits}}</job:Quantity>{{/if}}
+                     {{#if price}}<job:Price>{{price}}</job:Price>{{/if}}
+                     {{#if billingTypeId}}<job:BillingTypeID>{{billingTypeId}}</job:BillingTypeID>{{/if}}
+                  </job:WSPrePaidCreditGrant>
+               {{/each}}
+            </job:Credits>
+         </job:data>
+      </job:AddPrePaidCredits>
+   </soapenv:Body>
+</soapenv:Envelope>

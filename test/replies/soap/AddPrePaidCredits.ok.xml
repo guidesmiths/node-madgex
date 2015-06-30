@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <AddPrePaidCreditsResponse
+            xmlns="http://jobboard.webservice.madgex.co.uk">
+            <AddPrePaidCreditsResult>
+                <WSPrePaidCreditUsage>
+                    <ProductID>27</ProductID>
+                    <UseBy>2035-07-31T00:00:00</UseBy>
+                    <UnlimitedUsage>true</UnlimitedUsage>
+                    <Quantity>1</Quantity>
+                    <QuantityUsed>0</QuantityUsed>
+                    <Usage />
+                </WSPrePaidCreditUsage>
+            </AddPrePaidCreditsResult>
+        </AddPrePaidCreditsResponse>
+    </soap:Body>
+</soap:Envelope>
