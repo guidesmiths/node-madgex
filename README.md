@@ -23,6 +23,8 @@ The current set of supported web services is
 1. GetLocations
 1. UpdateBilledJob
 1. UpdateRecruiterWithBillingID
+1. AddPrePaidCredits
+1. CheckRecruiterExistsV2
 
 
 ## The REST API
