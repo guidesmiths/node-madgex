@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:job="http://jobboard.webservice.madgex.co.uk">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <job:CheckRecruiterExistsV2>
+         <job:sRecruiterName>{{recruiterName}}</job:sRecruiterName>
+         <job:sCustomerBillingId>{{customerBillingId}}</job:sCustomerBillingId>
+         <job:sMadgexID>{{madgexID}}</job:sMadgexID>
+      </job:CheckRecruiterExistsV2>
+   </soapenv:Body>
+</soapenv:Envelope>

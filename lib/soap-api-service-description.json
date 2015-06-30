@@ -28,6 +28,9 @@
             },
             "UpdateRecruiterWithBillingID": {
                 "result": "/soap:Envelope/soap:Body/updateRecruiterWithBillingIDResponse/updateRecruiterWithBillingIDResult"
+            },
+            "CheckRecruiterExistsV2": {
+                "result": "/soap:Envelope/soap:Body/checkRecruiterExistsV2Response/checkRecruiterExistsV2Result"
             }
         }
     }

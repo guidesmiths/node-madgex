@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <CheckRecruiterExistsV2Response xmlns="http://jobboard.webservice.madgex.co.uk">
+         <CheckRecruiterExistsV2Result>
+            <Exists>true</Exists>
+            <Id>11713</Id>
+            <BillingId>23005869</BillingId>
+         </CheckRecruiterExistsV2Result>
+      </CheckRecruiterExistsV2Response>
+   </soap:Body>
+</soap:Envelope>
