@@ -60,6 +60,8 @@ describe('Madgex SOAP API', function() {
             })
         })
 
+
+
         describe('GetCategories', function() {
             it('should get a list of categories', function(done) {
 
@@ -537,6 +539,42 @@ describe('Madgex SOAP API', function() {
                 }, function(err, result) {
                     assert.ifError(err)
                     assert.equal(result, 1339)
+                    done()
+                })
+            })
+        })
+
+        describe('CheckRecruiterExistsV2', function() {
+            
+            it('should find a Recruiter by madgex id', function(done) {
+
+               var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
+                   .post('/billing.asmx')
+                   .replyWithFile(200, __dirname + '/replies/soap/CheckRecruiterExistsV2.single.xml')
+
+                client.billingApi.checkRecruiterExistsV2({sRecruiterName: '', sCustomerBillingId: '', sMadgexID: '11713'}, function(err, results) {
+                    assert.ifError(err)
+                    assert.equal(results.exists, true)
+                    assert.equal(results.billingId, 23005869)
+                    assert.equal(results.id, 11713)
+                    done()
+                })
+            })
+        })
+
+        describe('CheckRecruiterExistsV2', function() {
+            
+            it('a Recruiter by customer billing id', function(done) {
+                
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
+                   .post('/billing.asmx')
+                   .replyWithFile(200, __dirname + '/replies/soap/CheckRecruiterExistsV2.single.xml')
+
+                client.billingApi.checkRecruiterExistsV2({sRecruiterName: '', sCustomerBillingId: '23005869', sMadgexID: ''}, function(err, results) {
+                    assert.ifError(err)
+                    assert.equal(results.exists, true)
+                    assert.equal(results.billingId, 23005869)
+                    assert.equal(results.id, 11713)
                     done()
                 })
             })
