@@ -579,6 +579,26 @@ describe('Madgex SOAP API', function() {
                 })
             })
         })
+
+        describe('CheckRecruiterExistsV2 with promises', function() {
+            
+            it('resolve with promise - a Recruiter by customer billing id', function(done) {
+                
+                var scope = nock('http://guidesmiths-webservice.madgexjbtest.com')
+                   .post('/billing.asmx')
+                   .replyWithFile(200, __dirname + '/replies/soap/CheckRecruiterExistsV2.single.xml')
+
+                client.billingApi.checkRecruiterExistsV2({sRecruiterName: '', sCustomerBillingId: '23005869', sMadgexID: ''})
+                        .then(function (results) {
+                            assert.equal(results.exists, true)
+                            assert.equal(results.billingId, 23005869)
+                            assert.equal(results.id, 11713)
+                            done()
+                        }, function (err) {
+                            assert.ifError(err)
+                        })
+            })
+        })
     })
 })
 
