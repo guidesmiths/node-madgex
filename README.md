@@ -177,3 +177,12 @@ Adding more API methods is easy
 6. Add one or more test cases
 7. Submit a PR
 
+### Publishing a new version
+```
+npm version [patch|minor|major]
+git push
+git push --tags --no-verify
+npm publish
+```
+
+
