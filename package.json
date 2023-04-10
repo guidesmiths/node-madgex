@@ -22,7 +22,7 @@
     "oauth": "^0.9.12",
     "request": "^2.55.0",
     "when": "^3.7.2",
-    "xml2js": "^0.4.8"
+    "xml2js": "^0.5.0"
   },
   "devDependencies": {
     "husky": "^0.7.0",
